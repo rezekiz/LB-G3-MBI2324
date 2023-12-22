@@ -1,0 +1,556 @@
+1. Clin Case Rep. 2023 Dec 15;11(12):e8284. doi: 10.1002/ccr3.8284. eCollection 
+2023 Dec.
+
+Transfusion-Related acute lung injury (TRALI) caused by antibodies to HLA-DRB1* 
+07:01 and HLA-DQB1*02:02: A case report.
+
+Huang M(1), Wang X(2), Wang L(1), Chen G(1).
+
+Author information:
+(1)Department of Blood Transfusion The Fourth Medical Center of Chinese PLA 
+General Hospital Beijing China.
+(2)Senior Department of Burn and Plastic Surgery The Fourth Medical Center of 
+Chinese PLA General Hospital Beijing China.
+
+Transfusion-related acute lung injury (TRALI) is characterized by 
+non-cardiogenic pulmonary edema and acute hypoxemia. There are few reports of 
+HLA-II antibodies causing TRALI in China.
+
+© 2023 The Authors. Clinical Case Reports published by John Wiley & Sons Ltd.
+
+DOI: 10.1002/ccr3.8284
+PMCID: PMC10724081
+PMID: 38107079
+
+Conflict of interest statement: All authors declare that they have no conflict 
+of interests.
+
+
+2. Front Immunol. 2023 Nov 3;14:1272021. doi: 10.3389/fimmu.2023.1272021. 
+eCollection 2023.
+
+High maternal-fetal HLA eplet compatibility is associated with severe 
+manifestation of preeclampsia.
+
+Stefańska K(#)(1), Kurkowiak M(#)(2), Piekarska K(3)(4)(5), Chruściel E(2), 
+Zamkowska D(1), Jassem-Bobowicz J(6), Adamski P(1), Świątkowska-Stodulska R(7), 
+Abacjew-Chmyłko A(1), Leszczyńska K(1), Zieliński M(4), Preis K(1), Zielińska 
+H(3)(4), Tymoniuk B(8), Trzonkowski P(4), Marek-Trzonkowska NM(2)(5).
+
+Author information:
+(1)Department of Gynecology and Obstetrics Medical University of Gdansk, Gdańsk, 
+Poland.
+(2)International Centre for Cancer Vaccine Science (ICCVS), University of 
+Gdańsk, Gdańsk, Poland.
+(3)Laboratory of Immunology and Clinical Transplantology, University Clinical 
+Centre in Gdańsk, Gdańsk, Poland.
+(4)Department of Medical Immunology, Medical University of Gdansk, Gdańsk, 
+Poland.
+(5)Laboratory of Immunoregulation and Cellular Therapies, Department of Family 
+Medicine, Medical University of Gdansk, Gdańsk, Poland.
+(6)Department of Neonatology, Medical University of Gdansk, Gdańsk, Poland.
+(7)Department of Endocrinology and Internal Medicine, Medical University of 
+Gdansk, Gdańsk, Poland.
+(8)Department of Immunology and Allergy, Medical University of Łódź, Łódź, 
+Poland.
+(#)Contributed equally
+
+INTRODUCTION: Preeclampsia is responsible for more than 70 000 and 500 000 
+maternal and fetal deaths, respectively each year. Incomplete remodelling of the 
+spiral arteries in placenta is the most accepted theory of preeclampsia 
+pathogenesis. However, the process is complexed with immunological background, 
+as pregnancy resembles allograft transplantation. Fetus expresses human 
+leukocyte antigens (HLA) inherited from both parents, thus is semiallogeneic to 
+the maternal immune system. Therefore, induction of fetal tolerance is crucial 
+for physiological outcome of pregnancy. Noteworthy, the immunogenicity of 
+discordant HLA antigens is determined by functional epitopes called eplets, 
+which are continuous and discontinuous short sequences of amino acids. This way 
+various HLA molecules may express the same eplet and some HLA incompatibilities 
+can be more immunogenic due to different eplet combination. Therefore, we 
+hypothesized that maternal- fetal HLA incompatibility may be involved in the 
+pathogenesis of gestational hypertension and its progression to preeclampsia. We 
+also aimed to test if particular maternal-fetal eplet mismatches are more prone 
+for induction of anti- fetal HLA antibodies in gestational hypertension and 
+preeclampsia.
+METHODS: High resolution next-generation sequencing of HLA-A, -B, -C, -DQB1 and 
+-DRB1 antigens was performed in mothers and children from physiological 
+pregnancies (12 pairs) and from pregnancies complicated with gestational 
+hypertension (22 pairs) and preeclampsia (27 pairs). In the next step HLA eplet 
+identification and analysis of HLA eplet incompatibilities was performed with in 
+silico approach HLAMatchmaker algorithm. Simultaneously maternal sera were 
+screened for anti-fetal HLA class I, class II and anti-MICA antibodies with 
+Luminex, and data were analyzed with HLA-Fusion software.
+RESULTS: We observed that high HLA-C, -B, and DQB1 maternal-fetal eplet 
+compatibility was associated with severe preeclampsia (PE) manifestation. Both 
+quantity and quality of HLA epletmismatches affected the severity of PE. 
+Mismatches in HLA-B eplets: 65QIA+76ESN, 70IAO, 180E, HLA-C eplets: 193PL3, 
+267QE, and HLA-DRB1 eplet: 16Y were associated with a mild outcome of 
+preeclampsia if the complication occurred.
+CONCLUSIONS: High HLA-C, HLA-DQB1 and HLA-B eplet compatibility between mother 
+and child is associated with severe manifestation of preeclampsia. Both quantity 
+and quality of maternal-fetal HLA eplet mismatches affects severity of 
+preeclampsia.
+
+Copyright © 2023 Stefańska, Kurkowiak, Piekarska, Chruściel, Zamkowska, 
+Jassem-Bobowicz, Adamski, Świątkowska-Stodulska, Abacjew-Chmyłko, Leszczyńska, 
+Zieliński, Preis, Zielińska, Tymoniuk, Trzonkowski and Marek-Trzonkowska.
+
+DOI: 10.3389/fimmu.2023.1272021
+PMCID: PMC10655094
+PMID: 38022600 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest. The author(s) declared that 
+they were an editorial board member of Frontiers, at the time of submission. 
+This had no impact on the peer review process and the final decision
+
+
+3. Genes (Basel). 2023 Oct 27;14(11):2010. doi: 10.3390/genes14112010.
+
+Genome-Wide Association Analysis across Endophenotypes in Alzheimer's Disease: 
+Main Effects and Disease Stage-Specific Interactions.
+
+Rosewood TJ(1)(2)(3), Nho K(1)(3)(4), Risacher SL(1)(3), Gao S(1)(5), Shen L(6), 
+Foroud T(1)(2), Saykin AJ(1)(2)(3), On Behalf Of The Alzheimer's Disease 
+Neuroimaging Initiative.
+
+Author information:
+(1)Indiana Alzheimer's Disease Research Center, Indianapolis, IN 46202, USA.
+(2)Department of Medical and Molecular Genetics, Indiana University School of 
+Medicine, Indianapolis, IN 46202, USA.
+(3)Department of Radiology and Imaging Sciences, Indiana University School of 
+Medicine, Indianapolis, IN 46202, USA.
+(4)School of Informatics and Computing, Indiana University, Indianapolis, IN 
+46202, USA.
+(5)Department of Biostatistics, Indiana University School of Medicine, 
+Indianapolis, IN 46202, USA.
+(6)Department of Biostatistics, Epidemiology and Informatics, The Perelman 
+School of Medicine, Philadelphia, PA 19104, USA.
+
+The underlying genetic susceptibility for Alzheimer's disease (AD) is not yet 
+fully understood. The heterogeneous nature of the disease challenges genetic 
+association studies. Endophenotype approaches can help to address this challenge 
+by more direct interrogation of biological traits related to the disease. AD 
+endophenotypes based on amyloid-β, tau, and neurodegeneration (A/T/N) biomarkers 
+and cognitive performance were selected from the Alzheimer's Disease 
+Neuroimaging Initiative (ADNI) cohort (N = 1565). A genome-wide association 
+study (GWAS) of quantitative phenotypes was performed using an SNP main effect 
+and an SNP by Diagnosis interaction (SNP × DX) model to identify disease 
+stage-specific genetic effects. Nine loci were identified as study-wide 
+significant with one or more A/T/N endophenotypes in the main effect model, as 
+well as additional findings significantly associated with cognitive measures. 
+These nine loci include SNPs in or near the genes APOE, SRSF10, HLA-DQB1, XKR3, 
+and KIAA1671. The SNP × DX model identified three study-wide significant genetic 
+loci (BACH2, EP300, and PACRG-AS1) with a neuroprotective effect in later AD 
+stage endophenotypes. An endophenotype approach identified novel genetic 
+associations and provided insight into the molecular mechanisms underlying the 
+genetic associations that may otherwise be missed using conventional 
+case-control study designs.
+
+DOI: 10.3390/genes14112010
+PMCID: PMC10671827
+PMID: 38002954 [Indexed for MEDLINE]
+
+Conflict of interest statement: Andrew Saykin receives support from multiple NIH 
+grants (P30 AG010133, P30 AG072976, R01 AG019771, R01 AG057739, U19 AG024904, 
+R01 LM013463, R01 AG068193, T32 AG071444, U01 AG068057, U01 AG072177, and U19 
+AG074879). He has also received support from Avid Radiopharmaceuticals, a 
+subsidiary of Eli Lilly (in kind contribution of PET tracer precursor); Bayer 
+Oncology (Scientific Advisory Board); Eisai (Scientific Advisory Board); Siemens 
+Medical Solutions USA, Inc. (Dementia Advisory Board); NIH NHLBI (MESA 
+Observational Study Monitoring Board); Springer-Nature Publishing (Editorial 
+Office Support as Editor-in-Chief, Brain Imaging and Behavior). Li Shen has 
+received additional funding paid to the University of Pennsylvania from NSF IIS 
+1622526/1827472, NSF IIS 1837964, NIH RF1 AG063481, NIH R01 LM013463, NIH U01 
+AG068057, NIH R01 AG058854, NIH RF1 AG068191, NIH R01 AG071470, NIH R01 
+EB022574. Li Shen has served as consultant on NIH grant R24 EB029173 from the 
+University of Massachusetts. Tatiana Foroud acts as a consultant for NIH-funded 
+centers and other infrastructure grants and receives funding for travel expenses 
+from the Michael J. Fox Foundation and from academic institutions on which she 
+serves as advisor. Sujuan Gao has served as an unpaid board and committee member 
+on the data safety monitoring board for R01 AG058586, 18G-MC-LMDC, R01 HL151951, 
+and paid data safety monitoring board member for R01 AG061898. Shannon Risacher 
+served as Communications Chair, unpaid, for the Alzheimer’s Association AWARE 
+PIA, as well as received travel funding for the Charleston Conference on 
+Alzheimer’s Disease. She also has equity interest in Eli Lilly (<$10000), a 
+company that may potentially benefit in the research results of this study. Thea 
+Rosewood and Kwangsik Nho have no interests to declare. The funders had no role 
+in the design of this study; in the collection, analyses, or interpretation of 
+data; in the writing of the manuscript; or in the decision to publish the 
+results.
+
+
+4. Acta Orthop Belg. 2023 Sep;89(3):373-380. doi: 10.52628/89.2.10491.
+
+A potential prognostic prediction model for metastatic osteosarcoma based on 
+bioinformatics analysis.
+
+Wang Y, Ming G, Gao B.
+
+Osteosarcoma (OS) is a malignant primary bone tumor with a high incidence. This 
+study aims to construct a prognostic prediction model by screening the 
+prognostic mRNA of metastatic OS. Data on four eligible expression profiles from 
+the National Center for Biotechnology Information Gene Expression Omnibus 
+repository were obtained based on inclusion criteria and defined as the training 
+set or the validation set. The differentially expressed genres (DEGs) between 
+meta- static and non-metastatic OS samples in the training set were first 
+identified, and DEGs related to prognosis were screened by univariate Cox 
+regression analysis. In total, 107 DEGs related to the prognosis of metastatic 
+OS were identified. Then, 46 DEGs were isolated as the optimized prognostic gene 
+signature, and a metastatic-OS discriminating classifier was constructed, which 
+had a high accuracy in distinguishing metastatic from non-metastatic OS samples. 
+Furthermore, four optimized prognostic gene signatures (ALOX5AP, COL21A1, 
+HLA-DQB1, and LDHB) were further screened, and the prognostic prediction model 
+for metastatic OS was constructed. This model possesses a relatively satisfying 
+prediction ability both in the training set and validation set. The prognostic 
+prediction model that was constructed based on the four prognostic mRNA 
+signatures has a high predictive ability for the prognosis of metastatic OS.
+
+DOI: 10.52628/89.2.10491
+PMID: 37935218 [Indexed for MEDLINE]
+
+
+5. Diabetes. 2023 Nov 7:db230387. doi: 10.2337/db23-0387. Online ahead of print.
+
+Increased Frequency of the HLA-DRB1*04:04-DQA1*03-DQB1*03:02 Haplotype among 
+HLA-DQB1*06:02 Positive Children with Type 1 Diabetes.
+
+Ilonen J(1), Kiviniemi M(1), El-Amir MI(1)(2), Nygård L(3), Härkönen T(4), 
+Lempainen J(1)(5)(6), Knip M(4)(7); Finnish Pediatric Diabetes Register.
+
+Author information:
+(1)Immunogenetics Laboratory, Institute of Biomedicine, University of Turku, 
+Turku, Finland.
+(2)Department of Medical Microbiology and Immunology, Faculty of Medicine, South 
+Valley University, Qena, Egypt.
+(3)Department of Clinical Microbiology, Institute of Clinical Medicine, 
+University of Eastern Finland, Kuopio, Finland.
+(4)Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki, Finland.
+(5)Departments of Pediatrics, University of Turku and Turku University Hospital, 
+Turku, Finland.
+(6)Clinical Microbiology, Turku University Hospital, Turku, Finland.
+(7)Pediatric Research Center, Children's Hospital, University of Helsinki and 
+Helsinki University Hospital, Helsinki, Finland.
+
+HLA DR-DQ haplotypes largely define genetic susceptibility to type 1 diabetes 
+(T1D). The DQB1*06:02 positive haplotype (DR15-DQ602) common in subjects of 
+European ancestry is very rare among children with T1D. Among 4490 children with 
+T1D in the Finnish Pediatric Diabetes Register 57 (1.3%) cases with DQB1*06:02 
+were identified in comparison to 26.1% of affected family-based association 
+controls. There was no difference between DQB1*06:02 positive and negative 
+children with T1D regarding sex, age, islet autoantibody distribution or 
+autoantibody levels, but significant differences were seen in the frequency of 
+the second class II HLA haplotypes. The most prevalent haplotype present with 
+DQB1*06:02 was DRB1*04:04-DQA1*03-DQB1*03:02 which was found in 27 of 57 (47.4%) 
+children compared to only 797/4433 (18.0%) among DQB1*06:02 negative cases 
+(P<0.001, Chi-square test). The other common risk associated haplotypes, the 
+DRB1*04:01-DQA1*03-DQB1*03:02 and (DR3)-DQA1*05-DQB1*02 were less prevalent in 
+DQB1*06:02 positive than DQB1*06:02 negative children (P<0.001). HLA-B allele 
+frequencies did not differ between DQB1*06:02 haplotypes in children with T1D 
+and controls and neither in DRB1*04:04-DQA1*03-DQB1*03:02 haplotypes of 
+DQB1*06:02 positive and negative T1D children. The increased frequency of 
+DRB1*04:04 allele among DQB1*06:02 positive cases may indicate preferential 
+ability of the DR404 molecule to present islet antigen epitopes despite of the 
+competition by DQ602.
+
+© 2023 by the American Diabetes Association.
+
+DOI: 10.2337/db23-0387
+PMID: 37934957
+
+
+6. Biomedicines. 2023 Oct 10;11(10):2741. doi: 10.3390/biomedicines11102741.
+
+Donor-Derived Cell-Free DNA at 1 Month after Kidney Transplantation Relates to 
+HLA Class II Eplet Mismatch Load.
+
+González-López E(1), Ocejo-Vinyals JG(2), Renuncio-García M(1), Roa-Bautista 
+A(1), San Segundo Arribas D(1), Escagedo C(3), García-Saiz MDM(4), Valero R(3), 
+García-Berbel P(5), Ruíz San Millán JC(3), Rodrigo E(3).
+
+Author information:
+(1)Immunology Department, Immunopathology Group, Marqués de Valdecilla 
+University Hospital-IDIVAL, University of Cantabria, 39008 Santander, Spain.
+(2)Immunology Department, Infectious Diseases and Clinical Microbiology Group, 
+Marqués de Valdecilla University Hospital-IDIVAL, University of Cantabria, 39008 
+Santander, Spain.
+(3)Nephrology Department, Immunopathology Group, Marqués de Valdecilla 
+University Hospital-IDIVAL, University of Cantabria, 39008 Santander, Spain.
+(4)Clinical Pharmacology Department, Marqués de Valdecilla University 
+Hospital-IDIVAL, University of Cantabria, 39008 Santander, Spain.
+(5)Pathological Anatomy Department, Marqués de Valdecilla University 
+Hospital-IDIVAL, University of Cantabria, 39008 Santander, Spain.
+
+Kidney transplantation is the preferred therapeutic option for end-stage renal 
+disease; however, the alloimmune response is still the leading cause of renal 
+allograft failure. To better identify immunologic disparities in order to 
+evaluate HLA compatibility between the donor and the recipient, the concept of 
+eplet load has arisen. Regular kidney function monitoring is essential for the 
+accurate and timely diagnosis of allograft rejection and the appropriate 
+treatment. Donor-derived cell-free DNA (dd-cfDNA) has been proposed as a 
+potential biomarker of acute rejection and graft failure in kidney 
+transplantation. The proportion of plasma dd-cfDNA was determined in forty-two 
+kidney patients at 1 month after transplantation. A total of eleven (26.2%) 
+patients had a dd-cfDNA proportion of ≥1.0%. The only pretransplant variable 
+related to dd-cfDNA > 1.0% was the HLA class II eplet mismatch load, mainly the 
+HLA-DQB1 eplet mismatch load. Furthermore, dd-cfDNA was able to discriminate the 
+patients with antibody-mediated rejection (AbMR) (AUC 87.3%), acute rejection 
+(AUC 78.2%), and troubled graft (AUC 81.4%). Increased dd-cfDNA levels were 
+associated with kidney allograft deterioration, particularly rejection, as well 
+as a greater HLA class II eplet mismatch load. Consequently, combining dd-cfDNA 
+determination and HLA eplet mismatch load calculation should improve the 
+assessment of the risk of short- and long-term allograft damage.
+
+DOI: 10.3390/biomedicines11102741
+PMCID: PMC10604614
+PMID: 37893114
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+7. BMC Med Genomics. 2023 Oct 13;16(Suppl 2):244. doi:
+10.1186/s12920-023-01675-9.
+
+c-Diadem: a constrained dual-input deep learning model to identify novel 
+biomarkers in Alzheimer's disease.
+
+Jemimah S(1), AlShehhi A(2); Alzheimer’s Disease Neuroimaging Initiative.
+
+Author information:
+(1)Department of Biomedical Engineering, Khalifa University, PO Box 127788, Abu 
+Dhabi, United Arab Emirates.
+(2)Department of Biomedical Engineering, Khalifa University, PO Box 127788, Abu 
+Dhabi, United Arab Emirates. aamna.alshehhi@ku.ac.ae.
+
+BACKGROUND: Alzheimer's disease (AD) is an incurable, debilitating 
+neurodegenerative disorder. Current biomarkers for AD diagnosis require 
+expensive neuroimaging or invasive cerebrospinal fluid sampling, thus precluding 
+early detection. Blood-based biomarker discovery in Alzheimer's can facilitate 
+less-invasive, routine diagnostic tests to aid early intervention. Therefore, we 
+propose "c-Diadem" (constrained dual-input Alzheimer's disease model), a novel 
+deep learning classifier which incorporates KEGG (Kyoto Encyclopedia of Genes 
+and Genomes) pathway constraints on the input genotyping data to predict 
+disease, i.e., mild cognitive impairment (MCI)/AD or cognitively normal (CN). 
+SHAP (SHapley Additive exPlanations) was used to explain the model and identify 
+novel, potential blood-based genetic markers of MCI/AD.
+METHODS: We developed a novel constrained deep learning neural network which 
+utilizes SNPs (single nucleotide polymorphisms) and microarray data from ADNI 
+(Alzheimer's Disease Neuroimaging Initiative) to predict the disease status of 
+participants, i.e., CN or with disease (MCI/AD), and identify potential 
+blood-based biomarkers for diagnosis and intervention. The dataset contains 
+samples from 626 participants, of which 212 are CN (average age 
+74.6 ± 5.4 years) and 414 patients have MCI/AD (average age 72.7 ± 7.6 years). 
+KEGG pathway information was used to generate constraints applied to the input 
+tensors, thus enhancing the interpretability of the model. SHAP scores were used 
+to identify genes which could potentially serve as biomarkers for diagnosis and 
+targets for drug development.
+RESULTS: Our model's performance, with accuracy of 69% and AUC of 70% in the 
+test dataset, is superior to previous models. The SHAP scores show that SNPs in 
+PRKCZ, PLCB1 and ITPR2 as well as expression of HLA-DQB1, EIF1AY, HLA-DQA1, and 
+ZFP57 have more impact on model predictions.
+CONCLUSIONS: In addition to predicting MCI/AD, our model has been interrogated 
+for potential genetic biomarkers using SHAP. From our analysis, we have 
+identified blood-based genetic markers related to Ca2+ ion release in affected 
+regions of the brain, as well as depression. The findings from our study 
+provides insights into disease mechanisms, and can facilitate innovation in 
+less-invasive, cost-effective diagnostics. To the best of our knowledge, our 
+model is the first to use pathway constraints in a multimodal neural network to 
+identify potential genetic markers for AD.
+
+© 2023. The Author(s).
+
+DOI: 10.1186/s12920-023-01675-9
+PMCID: PMC10571239
+PMID: 37833700 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests.
+
+
+8. Neurosci Lett. 2023 Nov 20;817:137513. doi: 10.1016/j.neulet.2023.137513. Epub
+ 2023 Oct 10.
+
+Genome-wide identification of m(6)A-associated single nucleotide polymorphisms 
+in complex diseases of nervous system.
+
+Guo F(1), Kang J(1), Xu J(1), Wei S(2), Tao J(1), Dong Y(1), Ma Y(1), Tian H(2), 
+Guo X(2), Bi S(2), Zhang C(2), Lv H(2), Shang Z(2), Jiang Y(3), Zhang M(4).
+
+Author information:
+(1)College of Bioinformatics Science and Technology, Harbin Medical University, 
+Harbin, China; The EWAS Project, China.
+(2)College of Bioinformatics Science and Technology, Harbin Medical University, 
+Harbin, China.
+(3)College of Bioinformatics Science and Technology, Harbin Medical University, 
+Harbin, China; The EWAS Project, China. Electronic address: 
+jiangyongshuai@hrbmu.edu.cn.
+(4)College of Bioinformatics Science and Technology, Harbin Medical University, 
+Harbin, China; The EWAS Project, China. Electronic address: 
+zhangmingming@hrbmu.edu.cn.
+
+N6-methyladenosine (m6A) is one of the most abundant chemical modifications on 
+RNA and can affect the occurrence and development of diseases. Some studies have 
+shown that the expressions of some m6A-related genes are significantly regulated 
+by single nucleotide variants (SNV). However, the function of m6A-associated 
+single nucleotide polymorphisms (m6A-SNP) remains unclear in multiple sclerosis 
+(MS), Alzheimer's disease (AD) and Parkinson's disease (PD). Here, we identified 
+the disease-associated m6A-SNPs by integrating genome-wide association study 
+(GWAS) and m6A-SNPs from the RMVar database, and confirmed the relationship 
+between these identified m6A-SNPs and their target genes in eQTL analysis and 
+gene differential expression analysis. Finally, 26 genes corresponding to 20 
+m6A-SNPs with eQTL signals were identified and differentially expressed 
+(P < 0.05) in MS, 15 genes corresponding to 12 m6A-SNPs (P < 1e-04) were 
+differentially expressed in AD, and 27 PD-associated m6A-SNPs that regulated the 
+expression of 31 genes were identified. There were 5 HLA genes with eQTL signals 
+(HLA-DQB1, HLA-DRB1, HLA-DQA1, HLA-DQA2 and HLA-DQB1-AS1) to be detected in the 
+three diseases. In summary, our study provided new insights into understanding 
+the potential roles of these m6A-SNPs in disease pathogenesis as well as 
+therapeutic target.
+
+Copyright © 2023 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.neulet.2023.137513
+PMID: 37827449 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Competing Interest The authors 
+declare that they have no known competing financial interests or personal 
+relationships that could have appeared to influence the work reported in this 
+paper.
+
+
+9. Front Pharmacol. 2023 Sep 19;14:1248386. doi: 10.3389/fphar.2023.1248386. 
+eCollection 2023.
+
+Association between HLA alleles and beta-lactam antibiotics-related severe 
+cutaneous adverse reactions.
+
+Wattanachai P(1), Amornpinyo W(2), Konyoung P(3), Purimart D(3), Khunarkornsiri 
+U(3), Pattanacheewapull O(4), Tassaneeyakul W(1), Nakkam N(1).
+
+Author information:
+(1)Department of Pharmacology, Faculty of Medicine, Khon Kaen University, Khon 
+Kaen, Thailand.
+(2)Division of Dermatology, Department of Internal Medicine, Khon Kaen Hospital, 
+Khon Kaen, Thailand.
+(3)Pharmacy Unit, Udon Thani Hospital, Udon Thani, Thailand.
+(4)Pharmacy Department, Khon Kaen Hospital, Khon Kaen, Thailand.
+
+Introduction: Beta-lactam antibiotics are one of the most common causes of 
+antibiotics-related severe cutaneous adverse reactions (SCARs) including 
+Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reactions 
+with eosinophilia and systemic symptoms (DRESS), and acute generalized 
+exanthematous pustulosis (AGEP). Recent evidence demonstrated that the human 
+leukocyte antigen (HLA) polymorphisms play important roles in the development of 
+drug-related SCARs. This study aimed to extensively characterize the 
+associations between HLA genetic polymorphisms and several phenotypes of SCARs 
+related to beta-lactam antibiotics. Methods: Thirty-one Thai patients with 
+beta-lactam antibiotics-related SCARs were enrolled in the study. A total of 183 
+unrelated native Thai subjects without any evidence of drug allergy were 
+recruited as the control group. Genotyping of HLA class I and class II alleles 
+was performed. Results: Six HLA alleles including HLA-A*01:01, HLA-B*50:01, 
+HLA-C*06:02, HLA-DRB1*15:01, HLA-DQA1*03:01, and HLA-DQB1*03:02, were 
+significantly associated with beta-lactam antibiotics-related SCARs. The highest 
+risk of SCARs was observed in patients with the HLA-B*50:01 allele (OR = 12.6, 
+95% CI = 1.1-142.9, p = 0.042), followed by the HLA-DQB1*03:02 allele (OR = 5.8, 
+95% CI = 1.5-22.0, p = 0.012) and the HLA-C*06:02 allele (OR = 5.7, 95% CI = 
+1.6-19.9, p = 0.011). According to the phenotypes of SCARs related to 
+beta-lactam antibiotics, the higher risk of SJS/TEN was observed in patients 
+with HLA-A*03:02, HLA-B*46:02 (OR = 17.5, 95% CI = 1.5-201.6, p = 0.033), 
+HLA-A*02:06, HLA-B*57:01 (OR = 9.5, 95% CI = 1.3-71.5, p = 0.028), 
+HLA-DQB1*03:02 (OR = 7.5, 95% CI = 1.8-30.9, p = 0.008), or HLA-C*06:02 (OR = 
+4.9, 95% CI = 1.1-21.4, p = 0.008). While eight HLA alleles including 
+HLA-A*02:05, HLA-A*02:11, HLA-B*37:01, HLA-B*38:01, HLA-B*50:01, HLA-C*06:02, 
+HLA-C*03:09, and HLA-DRB1*15:01 were associated with AGEP, the highest risk of 
+AGEP was observed in patients with the HLA-B*50:01 allele (OR = 60.7, 95% CI = 
+4.8-765.00, p = 0.005). Among the four HLA alleles associated with DRESS 
+including HLA-C*04:06, HLA-DRB1*04:05, HLA-DRB1*11:01, and HLA-DQB1*04:01, the 
+HLA-C*04:06 allele had the highest risk of beta-lactam antibiotics-related DRESS 
+(OR = 60.0, 95% CI = 3.0-1202.1, p = 0.043). However, these associations did not 
+achieve statistical significance after Bonferroni's correction. Apart from the 
+HLA risk alleles, the HLA-A*02:07 allele appeared to be a protective factor 
+against beta-lactam antibiotic-related SCARs (OR = 0.1, 95% CI = 0.0-0.5, p = 
+3.7 × 10-4, Pc = 0.012). Conclusion: This study demonstrated the candidate HLA 
+alleles that are significantly associated with several phenotypes of beta-lactam 
+antibiotics-related SCARs. However, whether the HLA alleles observed in this 
+study can be used as valid genetic markers for SCARs related to beta-lactam 
+antibiotics needs to be further explored in other ethnicities and larger cohort 
+studies.
+
+Copyright © 2023 Wattanachai, Amornpinyo, Konyoung, Purimart, Khunarkornsiri, 
+Pattanacheewapull, Tassaneeyakul and Nakkam.
+
+DOI: 10.3389/fphar.2023.1248386
+PMCID: PMC10546186
+PMID: 37795024
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+
+
+10. Clin Cosmet Investig Dermatol. 2023 Sep 21;16:2597-2612. doi: 
+10.2147/CCID.S428788. eCollection 2023.
+
+Genome-Wide Association Study of Alopecia Areata in Taiwan: The Conflict Between 
+Individuals and Hair Follicles.
+
+Yang JS(#)(1), Liu TY(#)(2), Chen YC(2), Tsai SC(3), Chiu YJ(4)(5), Liao CC(2), 
+Tsai FJ(6)(7)(8).
+
+Author information:
+(1)Department of Medical Research, China Medical University Hospital, China 
+Medical University, Taichung, 404327, Taiwan.
+(2)Million-Person Precision Medicine Initiative, Department of Medical Research, 
+China Medical University Hospital, Taichung, 404327, Taiwan.
+(3)Department of Biological Science and Technology, China Medical University, 
+Taichung, 406040, Taiwan.
+(4)Division of Plastic and Reconstructive Surgery, Department of Surgery, Taipei 
+Veterans General Hospital, Taipei, 112201, Taiwan.
+(5)Department of Surgery, School of Medicine, National Yang Ming Chiao Tung 
+University, Taipei, 112304, Taiwan.
+(6)School of Chinese Medicine, College of Chinese Medicine, China Medical 
+University, Taichung, 404333, Taiwan.
+(7)China Medical University Children's Hospital, Taichung, 404327, Taiwan.
+(8)Department of Medical Genetics, China Medical University Hospital, Taichung, 
+404327, Taiwan.
+(#)Contributed equally
+
+PURPOSE: Alopecia areata (AA) is one of the most prevalent autoimmune diseases 
+affecting humans. Given that hair follicles are immune-privileged, autoimmunity 
+can result in disfiguring hair loss. However, the genetic basis for AA in the 
+Taiwanese population remains unknown.
+MATERIALS AND METHODS: A genome-wide association study was conducted using a 
+cohort of 408 AA cases and 8167 controls. To link variants to gene 
+relationships, we used 882 SNPs (P<1E-05) within 74 genes that were associated 
+with AA group to build the biological networks by IPA software. HLA diplotypes 
+and haplotypes were analyzed using Attribute Bagging (HIBAG)-R package and 
+chi-square analysis.
+RESULTS: Seven single nucleotide polymorphisms (SNPs) including LINC02006 
+(rs531166736, rs187306735), APC (rs112800832_C_CAT), SRP19 (rs139948960, 
+rs144784670), EGFLAM (rs16903975) and LDLRAD3 (rs79874564) were closely 
+associated with the AA phenotype (P<5E-08). Examination of biological networks 
+revealed that these genomic areas are associated with antigen presentation 
+signaling, B cell and T cell development, Th1 and Th2 activation pathways, Notch 
+signaling, crosstalk signaling between dendritic cells and natural killer cells, 
+and phagosome maturation. Based on human leukocyte antigen (HLA) genotype 
+analysis, four HLA genotypes (HLA-B*15:01-*40:01, HLA-DQA1*01:02-*03:03, 
+HLA-DQA1*01:02, and HLA-DQB1*02:01) were found to be associated with AA 
+(adjusted p-value<0.05). HLA-DQA1*01:02 is the most significantly related gene 
+in the Taiwanese population (adjusted p-value = 2.09E-05).
+CONCLUSION: This study successfully identified susceptibility loci associated 
+with AA in the Taiwanese population. These findings not only shed light on the 
+origins of AA within the Taiwanese context but also contribute to a 
+comprehensive understanding of the genetic factors influencing AA 
+susceptibility.
+
+© 2023 Yang et al.
+
+DOI: 10.2147/CCID.S428788
+PMCID: PMC10519225
+PMID: 37752970
+
+Conflict of interest statement: The authors declared no potential conflicts of 
+interest with respect to the research, authorship, and/or publication of this 
+article.
