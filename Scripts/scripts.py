@@ -2,11 +2,7 @@
 # DEMASIADAS QUERIES SEGUIDAS PODEM LEVAR A BLOQUEIO POR PARTE DO SERVIDOR
 # EM PRINCÍPIO O MÓDULO ENTREZ ESTÁ PREPARADO PARA LIDAR COM ISSO MAS CONVÉM TER SEMPRE CUIDADO
 
-# ATENÇÃO À UTILIZAÇÃO DESTA FUNÇÃO
-# DEMASIADAS QUERIES SEGUIDAS PODEM LEVAR A BLOQUEIO POR PARTE DO SERVIDOR
-# EM PRINCÍPIO O MÓDULO ENTREZ ESTÁ PREPARADO PARA LIDAR COM ISSO MAS CONVÉM TER SEMPRE CUIDADO
-
-def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N'):
+def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N', ext='txt'):
     '''
     NOTA - PARA USAR RETMODE XML TÊM DE SER DECLARADA UMA NOVA VARIÁVEL POIS A FUNÇÃO AINDA NÃO CRIA FICHEIROS XML
     
@@ -106,6 +102,7 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     if display.upper() == 'Y':
         print(fetch_res,sep='\n')
 
+
     # Verifica a condição de gravação de output como ficheiro de texto
     
     if retmode == 'xml': save = 'n'
@@ -128,7 +125,7 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 
         # Verifica se existe pasta para output e cria-a caso não exista
         cwd = os.getcwd()
-        outputdir = os.path.join(cwd,'gene_search() output')
+        outputdir = os.path.join(cwd,'output')
         if not os.path.exists(outputdir):
             os.mkdir(outputdir)
 
@@ -147,8 +144,12 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
         # Retorna ao working directory anterior
         os.chdir(cwd)
 
+        print('Ficheiro gravado.')
+
 
     handle.close()
+
+    print('Concluído.')
 
     return fetch_res
 
