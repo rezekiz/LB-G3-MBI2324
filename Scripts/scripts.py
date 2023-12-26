@@ -2,7 +2,11 @@
 # DEMASIADAS QUERIES SEGUIDAS PODEM LEVAR A BLOQUEIO POR PARTE DO SERVIDOR
 # EM PRINCÍPIO O MÓDULO ENTREZ ESTÁ PREPARADO PARA LIDAR COM ISSO MAS CONVÉM TER SEMPRE CUIDADO
 
-def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N', ext='txt'):
+# ATENÇÃO À UTILIZAÇÃO DESTA FUNÇÃO
+# DEMASIADAS QUERIES SEGUIDAS PODEM LEVAR A BLOQUEIO POR PARTE DO SERVIDOR
+# EM PRINCÍPIO O MÓDULO ENTREZ ESTÁ PREPARADO PARA LIDAR COM ISSO MAS CONVÉM TER SEMPRE CUIDADO
+
+def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N'):
     '''
     NOTA - PARA USAR RETMODE XML TÊM DE SER DECLARADA UMA NOVA VARIÁVEL POIS A FUNÇÃO AINDA NÃO CRIA FICHEIROS XML
     
@@ -77,6 +81,9 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
             else:
                 print('Encontrados {} resultados em {}. Irá ser processado 1 resultado.\n'.format(_['Count'],db))
 
+    
+    if rettype == 'fasta' or rettype == 'gb': retmax = 1
+
     # Sacar as IDs
     handle      = Entrez.esearch(db=db,term=term, retmode=retmode, retmax=retmax)
     esearch_res = Entrez.read(handle)
@@ -85,6 +92,7 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     # print('Top 10 artigos ->',lista_ids) # Converter para uma lista de títulos mais à frente'''
     
     
+
     # Transfere a informação
     handle = Entrez.efetch(db=db,id=','.join(lista_ids),rettype=rettype,retmode=retmode)
     fetch_res = handle.read()
@@ -116,6 +124,8 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 
         else: ext = '.txt'
 
+        filename = term+ext
+
         # Verifica se existe pasta para output e cria-a caso não exista
         cwd = os.getcwd()
         outputdir = os.path.join(cwd,'gene_search() output')
@@ -125,6 +135,10 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 
         # Muda o working directory para a pasta de output para gerar o ficheiro
         os.chdir(outputdir)
+
+        if os.path.isfile(filename): print('Ficheiro já existe. Não será criado novo ficheiro.')
+
+
 
         # Gera o ficheiro           
         with open(term+ext , 'w', encoding='utf-8') as _:
