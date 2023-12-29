@@ -77,6 +77,9 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
             else:
                 print('Encontrados {} resultados em {}. Irá ser processado 1 resultado.\n'.format(_['Count'],db))
 
+    
+    if rettype == 'fasta' or rettype == 'gb': retmax = 1
+
     # Sacar as IDs
     handle      = Entrez.esearch(db=db,term=term, retmode=retmode, retmax=retmax)
     esearch_res = Entrez.read(handle)
@@ -85,6 +88,7 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     # print('Top 10 artigos ->',lista_ids) # Converter para uma lista de títulos mais à frente'''
     
     
+
     # Transfere a informação
     handle = Entrez.efetch(db=db,id=','.join(lista_ids),rettype=rettype,retmode=retmode)
     fetch_res = handle.read()
@@ -97,6 +101,7 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     
     if display.upper() == 'Y':
         print(fetch_res,sep='\n')
+
 
     # Verifica a condição de gravação de output como ficheiro de texto
     
@@ -116,25 +121,37 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 
         else: ext = '.txt'
 
+        filename = term+ext
+
         # Verifica se existe pasta para output e cria-a caso não exista
-        cwd = os.getcwd()
-        outputdir = os.path.join(cwd,'gene_search() output')
+        '''cwd = os.getcwd()
+        outputdir = os.path.join(cwd,'output')
         if not os.path.exists(outputdir):
             os.mkdir(outputdir)
 
 
         # Muda o working directory para a pasta de output para gerar o ficheiro
-        os.chdir(outputdir)
+        os.chdir(outputdir)'''
+
+        if os.path.isfile(filename): 
+            print('Ficheiro já existe. Não será criado novo ficheiro.')
+            return fetch_res
+
+
 
         # Gera o ficheiro           
         with open(term+ext , 'w', encoding='utf-8') as _:
             _.write(fetch_res)
 
-        # Retorna ao working directory anterior
-        os.chdir(cwd)
+        '''# Retorna ao working directory anterior
+        os.chdir(cwd)'''
+
+        print('Ficheiro gravado.')
 
 
     handle.close()
+
+    print('Concluído.')
 
     return fetch_res
 
@@ -187,3 +204,153 @@ def features_qualifiers(nome_ficheiro):
     return
 
 
+##############################
+# Secção de Análise Proteína #
+##############################
+
+# Carrega a sequência de AA
+def carregar_sequencia(filename):
+    from Bio import SeqIO
+
+    try:    
+        # Lemos o ficheiro .fasta
+        seq_proteina = SeqIO.read(open(filename),format='fasta')
+
+        sp = seq_proteina.seq # Isolamos a sequência
+        return sp
+    
+    except FileNotFoundError:
+        print('Ficheiro FASTA não existe. Apresentar um ficheiro FASTA válido.')
+
+# Contagem de AA
+
+def conta_aa(fastafile):
+    # TODO colocar um dicionário bonitinho
+    from collections import Counter
+    seq_prot = carregar_sequencia(fastafile)
+    contagem_aa = dict(Counter(seq_prot))
+    
+    return contagem_aa
+
+
+# Parsing de Blast Records 
+
+def blast_parse(filename, lim = None, ethreshold = 0.05):
+    
+    from Bio.Blast import NCBIXML
+
+    handle = open(filename)
+    blast_res = NCBIXML.parse(handle)
+    blast_records = list(blast_res)
+
+    num = 1
+    for record in blast_records:
+
+        if lim == None: lim = len(record.alignments)    
+
+        for aligment in record.alignments[0:lim]:
+            #print(aligment)
+            
+            for hsp in aligment.hsps:
+                #print(hsp)
+                
+                if hsp.expect < ethreshold:
+                    print('****Alinhamento {} ****'.format(num))
+                    print('Sequência:',aligment.title)
+                    print('Tamanho da Sequência:',aligment.length)
+                    print('e-value:',hsp.expect)
+                    print(hsp.query[0:40]+'...')
+                    print(hsp.match[0:40]+'...')
+                    print(hsp.sbjct[0:40]+'...')
+                    print()
+                    num += 1    
+
+# Analise na BD SwissProt
+# TODO integrar esta função na função de análise
+
+def swiss_prot_scan(swiss_id):
+    from Bio import SeqIO
+    from Bio import ExPASy
+    # Efetuamos uma pesquisa na base de dados SwissProt 
+    handle = ExPASy.get_sprot_raw(swiss_id) # Encontramos o ID ao ler o ficheiro fasta
+    sr = SeqIO.read(handle, "swiss")
+    print(
+        f'ID {sr.id}',
+        f'Sequência: {sr.seq}',
+        f'Tamanho da sequência: {len(sr.seq)} bp',
+        f'Nome: {sr.name}',
+        f'Descrição: {sr.description}',
+        f'Taxonomia: {sr.annotations["taxonomy"]}',
+        f'Organismo: {sr.annotations["organism"]}',
+        f'Keywords: {sr.annotations["keywords"]}',
+        sep = '\n')
+    
+
+# Função que executa análise Blast caso o ficheiro blast não exista para fazer parsing
+    
+def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
+    '''
+    Função que carrega uma sequência de aminoácidos a partir de ficheiro fasta e realiza
+    uma análise blast caso esta ainda não esteja feita ou então faz parse de blast records
+    até ao limite definido.
+
+    email : str
+        parâmetro de email para utilização do serviço NCBIWWW
+
+    fastafile : str
+        caminho para ficheiro fasta com a sequência da proteína
+
+    xmlfile : str
+        caminho para o ficheiro XML com blastrecords caso já esteja previamente realizada
+
+    lim : int
+        limite de resultados que queremos visualizar dos resultados do blast
+        por defeito não está definido
+
+    e-threshold : float
+        valor-limite de e-value a que queremos delimitar a nossa análise blast
+        por defeito está definido 0.05
+    
+    '''
+    import os
+    from Bio.Blast import NCBIWWW
+    
+    NCBIWWW.email = email
+
+    if not fastafile.endswith('.fasta'): raise ValueError('Ficheiro .fasta inválido')  
+
+    try:
+        sequencia_proteina = carregar_sequencia(fastafile)
+    except FileNotFoundError: 
+        print('Ficheiro FASTA não existe. Apresentar um ficheiro FASTA válido.')
+        print('Sugestão: Realizar um pesquisa_ncbi() com o ID da proteína na base de dados protein')
+    
+    # Verifica se já existe um ficheiro XML para os resultados do BLAST. Ignora a pesquisa caso já exista.
+    # Para poupar tempo.
+    # Se o ficheiro já existir executa o parsing do ficheiro.
+
+    if not xmlfile.endswith('.xml'):
+        xmlfile = xmlfile + '.xml'
+
+    # Verifica a existência do ficheiro
+
+    if os.path.isfile(xmlfile): 
+        blast_parse(xmlfile,lim, ethreshold)
+        
+    
+    else: 
+    # Executa o BLAST da Proteína
+        handle = NCBIWWW.qblast('blastp','swissprot',sequencia_proteina)
+        with open(xmlfile, 'w') as _:
+            _.write(handle.read())
+
+        blast_parse(xmlfile,lim,ethreshold)
+
+        # Retorna ao working directory anterior
+        
+
+        
+
+        print(f'Ficheiro {xmlfile} gravado. Para realizar um blast parse ir buscar o ficheiro à pasta output')
+        
+        handle.close()
