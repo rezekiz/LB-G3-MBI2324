@@ -222,12 +222,14 @@ def carregar_sequencia(filename):
 
 # Contagem de AA
 
-def conta_aa(seq_prot):
+def conta_aa(fastafile):
     # TODO colocar um dicionário bonitinho
     from collections import Counter
+    seq_prot = carregar_sequencia(fastafile)
     contagem_aa = dict(Counter(seq_prot))
     
     return contagem_aa
+
 
 # Parsing de Blast Records 
 
@@ -320,6 +322,7 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
     cwd = os.getcwd()
     outputdir = os.path.join(cwd,'output')
     os.chdir(outputdir)
+    
                 
 
     try:
