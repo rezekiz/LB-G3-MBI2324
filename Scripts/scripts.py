@@ -314,9 +314,13 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
     NCBIWWW.email = email
 
     if not fastafile.endswith('.fasta'): raise ValueError('Ficheiro .fasta inválido')
+
+    # Muda para a pasta da função para as operações
         
-        
-        
+    cwd = os.getcwd()
+    outputdir = os.path.join(cwd,'output')
+    os.chdir(outputdir)
+                
 
     try:
         sequencia_proteina = carregar_sequencia(fastafile)
@@ -328,16 +332,21 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
     # Para poupar tempo.
     # Se o ficheiro já existir executa o parsing do ficheiro.
 
-    if '.xml' not in xmlfile:
+    if not xmlfile.endswith('.xml'):
         xmlfile = xmlfile + '.xml'
 
+    # Verifica a existência do ficheiro
+
     if os.path.isfile(xmlfile): 
+       
         
         blast_parse(xmlfile,lim, ethreshold)
-
+        os.chdir(cwd)
+        
+    
     else: 
     # Executa o BLAST da Proteína
-        handle = NCBIWWW.qblast('blastp','swissprot',sequencia_proteina.seq)
+        handle = NCBIWWW.qblast('blastp','swissprot',sequencia_proteina)
 
         # TODO Converter o savefile numa sub-função
         # Verifica se existe pasta para output e cria-a caso não exista
@@ -352,10 +361,14 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
         with open(xmlfile, 'w') as _:
             _.write(handle.read())
 
+        blast_parse(xmlfile,lim,ethreshold)
 
         # Retorna ao working directory anterior
         os.chdir(cwd)
+        
 
-        print(f'Ficheiro {xmlfile} gravado.')
+        
+
+        print(f'Ficheiro {xmlfile} gravado. Para realizar um blast parse ir buscar o ficheiro à pasta output')
         
         handle.close()
