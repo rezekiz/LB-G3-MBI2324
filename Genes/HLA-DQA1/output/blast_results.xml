@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_110247</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>255</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_110247</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>255</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P01909.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DQ alpha 1 chain; AltName: Full=DC-1 alpha chain; AltName: Full=DC-alpha; AltName: Full=HLA-DCA; AltName: Full=MHC class II DQA1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P01909</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>1.14403e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPSGQYTHEFDGDEQFYVDLGRKETVWCLPVLRQFR-FDPQFALTNIAVLKHNLNSLIKRSNSTAATNEVPEVTVFSKSPVTLGQPNILICLVDNIFPPVVNITWLSNGHSVTEGVSETSFLSKSDHSFFKISYLTLLPSAEESYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTVFIIRGLRSVGASRHQGPL</Hsp_hseq>
+      <Hsp_midline>MILNKAL+LGALALTTVMSPCGGEDIVADHVAS GVNLYQ YGPSGQYTHEFDGDEQFYVDL RKET W  P   +F  FDPQ AL N+AV KHNLN +IKR NSTAATNEVPEVTVFSKSPVTLGQPN LICLVDNIFPPVVNITWLSNG SVTEGVSETSFLSKSDHSFFKISYLT LPSA E YDCKVEHWGLD+PLLKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGTVFII+GLRSVGASRHQGPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P01906.2|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DQ alpha 2 chain; AltName: Full=DX alpha chain; AltName: Full=HLA class II histocompatibility antigen, DQ(6) alpha chain; AltName: Full=HLA-DQA1; AltName: Full=MHC class II DQA2; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P01906</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>3.67159e-157</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>VMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>VMSPCGGEDIVADHVASYGVNFYQSHGPSGQYTHEFDGDEEFYVDLETKETVWQLPMFSKFISFDPQSALRNMAVGKHTLEFMMRQSNSTAATNEVPEVTVFSKFPVTLGQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSFLSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETLVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGLL</Hsp_hseq>
+      <Hsp_midline>VMSPCGGEDIVADHVAS GVN YQ +GPSGQYTHEFDGDE+FYVDLE KET W+ P FSKF  FDPQ ALRNMAV KH L  M+++ NSTAATNEVPEVTVFSK PVTLGQPNTLICLVDNIFPPVVNITWLSNG SVTEGVSETSFLSKSDHSFFKISYLTFLPSA EIYDCKVEHWGLD+PLLKHWEPEIPAPMSELTET+VCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|P15981.1|</Hit_id>
+  <Hit_def>RecName: Full=SLA class II histocompatibility antigen, DQ haplotype D alpha chain; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P15981</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.402</Hsp_bit-score>
+      <Hsp_score>1095</Hsp_score>
+      <Hsp_evalue>6.20259e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MVPGRVLMWGALALTAVMSACGGEDIAADHVASYGLNVYQSYGPSGYYTHEFDGDEEFYVDLGKKETVWQLPLFSKFRSFDPQGALRNIATAKHNLNILIKRSNNTAAVNQVPEVTVFPKSPVMLGQPNTLICHVDNIFPPVINITWLKNGHSVTEGFSETSFLSKNDHSFLKISYLTFLPSDDDFYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCALGLIVGLVGIVVGTVFIIQGLRSGGPSRHQGSL</Hsp_hseq>
+      <Hsp_midline>M+  + L+ GALALT VMS CGGEDI ADHVAS G+N+YQ YGPSG YTHEFDGDE+FYVDL +KET W+ P FSKF  FDPQGALRN+A AKHNLNI+IKR N+TAA N+VPEVTVF KSPV LGQPNTLIC VDNIFPPV+NITWL NG SVTEG SETSFLSK+DHSF KISYLTFLPS  + YDCKVEHWGLD+PLLKHWEPEIPAPMSELTETVVCALGL VGL+GIVVGTVFIIQGLRS G SRHQG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P15980.1|</Hit_id>
+  <Hit_def>RecName: Full=SLA class II histocompatibility antigen, DQ haplotype C alpha chain; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P15980</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>3.52589e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MVPGRVLMWGALALTTVMSACGGEDIAADHVASYGLNVYQSYGPRGYFTHEFDGDEQFYVDLEKKETVWRLPLFSEFTSFDPQGALRNIATLKHNLNIVTKRSNNTAAVNKVPEVTVFSKSPVILGQPNTLICHVDSIFPPVINITWLKNGHSV-KGFSETSFLSKNDHSFLKISYLTFLPSDDDFYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCALGLIVGLVGIVVGTVFIIQGLRSGGPSRHQGSL</Hsp_hseq>
+      <Hsp_midline>M+  + L+ GALALTTVMS CGGEDI ADHVAS G+N+YQ YGP G +THEFDGDEQFYVDLE+KET WR P FS+F  FDPQGALRN+A  KHNLNI+ KR N+TAA N+VPEVTVFSKSPV LGQPNTLIC VD+IFPPV+NITWL NG SV +G SETSFLSK+DHSF KISYLTFLPS  + YDCKVEHWGLD+PLLKHWEPEIPAPMSELTETVVCALGL VGL+GIVVGTVFIIQGLRS G SRHQG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P20037.1|</Hit_id>
+  <Hit_def>RecName: Full=Rano class II histocompatibility antigen, B alpha chain; AltName: Full=RT1 class II antigen, Ba chain; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P20037</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>2.73784e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGED-IVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MPLSRALILGVLALTTMLSPCGGQDDIEADHVGSYGITVYQYHESKGQYTHEFDGDERFYVDLDKKETIWRIPEFGQLISFDPQGALRNIAIIKHNLEILMKRSNSTPAVNEVPEATVFSKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKPLTEGVYETSFLINSDYSFHKMAYLTFIPSNDDIYDCKVEHWSLDEPVLRHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSVAPSRHPGPL</Hsp_hseq>
+      <Hsp_midline>M L++AL+LG LALTT++SPCGG+D I ADHV S G+ +YQ++   GQYTHEFDGDE+FYVDL++KET WR PEF +   FDPQGALRN+A+ KHNL I++KR NST A NEVPE TVFSKSPV LGQPNTLIC VDNIFPPV+NITWL N + +TEGV ETSFL  SD+SF K++YLTF+PS  +IYDCKVEHW LD+P+L+HWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRSV  SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P14434.2|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-B alpha chain; Short=IAalpha; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P14434</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>1.52369e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGED-IVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MPRSRALILGVLALTTMLSLCGGEDDIEADHVGTYGISVYQSPGDIGQYTFEFDGDELFYVDLDKKETVWMLPEFGQLASFDPQGGLQNIAVVKHNLGVLTKRSNSTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVADGVYETSFFVNRDYSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>M  ++AL+LG LALTT++S CGGED I ADHV + G+++YQ  G  GQYT EFDGDE FYVDL++KET W  PEF +   FDPQG L+N+AV KHNL ++ KR NST ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SV +GV ETSF    D+SF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|P01910.2|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-K alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P01910</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>2.87616e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGED-IVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MPRSRALILGVLALTTMLSLCGGEDDIEADHVGSYGITVYQSPGDIGQYTFEFDGDELFYVDLDKKETVWMLPEFAQLRRFEPQGGLQNIATGKHNLEILTKRSNSTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFFVNRDYSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>M  ++AL+LG LALTT++S CGGED I ADHV S G+ +YQ  G  GQYT EFDGDE FYVDL++KET W  PEF++   F+PQG L+N+A  KHNL I+ KR NST ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSF    D+SF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|P04228.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-D alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P04228</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>4.30331e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGED-IVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MPCSRALILGVLALNTMLSLCGGEDDIEADHVGFYGTTVYQSPGDIGQYTHEFDGDELFYVDLDKKKTVWRLPEFGQLILFEPQGGLQNIAAEKHNLGILTKRSNFTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>M  ++AL+LG LAL T++S CGGED I ADHV   G  +YQ  G  GQYTHEFDGDE FYVDL++K+T WR PEF +   F+PQG L+N+A  KHNL I+ KR N T ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P23150.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, I-E alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P23150</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>4.81902e-131</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>NKALLLGALALTTVMSPCGGED-IVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>SRALILGVLALTTMLSLCGGEDDIEADHVAFYGISVYQSPGDIGQYTFEFDGDELFYVDLDKKETVWMLPEFGQLTSFDPQGGLQEIATGKYNLEILIKDSNFTPAANEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>++AL+LG LALTT++S CGGED I ADHVA  G+++YQ  G  GQYT EFDGDE FYVDL++KET W  PEF +   FDPQG L+ +A  K+NL I+IK  N T A NE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P14436.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-R alpha chain [Mus musculus]</Hit_def>
+  <Hit_accession>P14436</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.525</Hsp_bit-score>
+      <Hsp_score>911</Hsp_score>
+      <Hsp_evalue>3.42626e-124</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>EDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>DDIEADHVGVYGTTVYQSPGDIGQFTHEFDGDEWFYVDLDKKETVWMLPEFGQLTSFDPQGGLQNIAVVKHNLEILTKRSNFTPAANEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>+DI ADHV   G  +YQ  G  GQ+THEFDGDE FYVDL++KET W  PEF +   FDPQG L+N+AV KHNL I+ KR N T A NE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P14437.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-S alpha chain [Mus musculus]</Hit_def>
+  <Hit_accession>P14437</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>6.83109e-124</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>EDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>DDIEADHVGVYGTTVYQSPGDIGQYTHEFDGDEWFYVDLDKKETIWMLPEFGQLTSFDPQGGLQNIATGKYTLGILTKRSNSTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>+DI ADHV   G  +YQ  G  GQYTHEFDGDE FYVDL++KET W  PEF +   FDPQG L+N+A  K+ L I+ KR NST ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P14435.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-F alpha chain [Mus musculus]</Hit_def>
+  <Hit_accession>P14435</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>8.50399e-124</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>EDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>DDIEADHVGFYGISVYQSPGDIGQYTFEFDGDEWFYVDLDKKETVWRLPEFGQLTSFDPQGGLQEIATGKHNLGILTKRSNFTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>+DI ADHV   G+++YQ  G  GQYT EFDGDE FYVDL++KET WR PEF +   FDPQG L+ +A  KHNL I+ KR N T ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P14438.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-U alpha chain [Mus musculus]</Hit_def>
+  <Hit_accession>P14438</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>5.37027e-121</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>DHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>DHVGSYGIVVYQSPGDIGQYTFEFDGDELFYVDLDKKETIWMLPEFAQLRSFDPQGGLQNIATGKHNLGVLTKRSNSTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVADGVYETSFFVNRDYSFHKLSYLTFIPSDDDIYDCKVEHWGLEEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRHPGPL</Hsp_hseq>
+      <Hsp_midline>DHV S G+ +YQ  G  GQYT EFDGDE FYVDL++KET W  PEF++   FDPQG L+N+A  KHNL ++ KR NST ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SV +GV ETSF    D+SF K+SYLTF+PS  +IYDCKVEHWGL++P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SRH GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|P04227.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-Q alpha chain [Mus musculus]</Hit_def>
+  <Hit_accession>P04227</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.806</Hsp_bit-score>
+      <Hsp_score>865</Hsp_score>
+      <Hsp_evalue>1.75295e-117</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>GVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>GIVVYQSPGDIGQYTHEFDGDEWFYVDLDKKETVWMLPEFGQLTSFDPQGGLQNIATGKHNLGGWTKRSNFTPATNEAPQATVFPKSPVLLGQPNTLICFVDNIFPPVINITWLRNSKSVTDGVYETSFLVNRDHSFHKLSYLTFIPSDDDIYDCKVEHWGLDEPVLKHWEPEIPAPMSELTETVVCALGLSVGLVGIVVGTIFIIQGLRSGGTSRPPGPL</Hsp_hseq>
+      <Hsp_midline>G+ +YQ  G  GQYTHEFDGDE FYVDL++KET W  PEF +   FDPQG L+N+A  KHNL    KR N T ATNE P+ TVF KSPV LGQPNTLIC VDNIFPPV+NITWL N +SVT+GV ETSFL   DHSF K+SYLTF+PS  +IYDCKVEHWGLD+P+LKHWEPEIPAPMSELTETVVCALGLSVGL+GIVVGT+FIIQGLRS G SR  GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|P06340.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DO alpha chain; AltName: Full=MHC DN-alpha; AltName: Full=MHC DZ alpha; AltName: Full=MHC class II antigen DOA; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P06340</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>9.05049e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQG</Hsp_qseq>
+      <Hsp_hseq>MALRAGLVLGFHTLMTLLSPQEAGATKADHMGSYGPAFYQSYGASGQFTHEFDEEQLFSVDLKKSEAVWRLPEFGDFARFDPQGGLAGIAAIKAHLDILVERSNRSRAINVPPRVTVLPKSRVELGQPNILICIVDNIFPPVINITWLRNGQTVTEGVAQTSFYSQPDHLFRKFHYLPFVPSAEDVYDCQVEHWGLDAPLLRHWELQVPIPPPDAMETLVCALGLAIGLVGFLVGTVLIIMG</Hsp_hseq>
+      <Hsp_midline>M L   L+LG   L T++SP       ADH+ S G   YQ YG SGQ+THEFD ++ F VDL++ E  WR PEF  F  FDPQG L  +A  K +L+I+++R N + A N  P VTV  KS V LGQPN LIC+VDNIFPPV+NITWL NGQ+VTEGV++TSF S+ DH F K  YL F+PSA ++YDC+VEHWGLD PLL+HWE ++P P  +  ET+VCALGL++GL+G +VGTV II G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q30631.1|</Hit_id>
+  <Hit_def>RecName: Full=Mamu class II histocompatibility antigen, DR alpha chain; AltName: Full=MHC class II antigen DRA; Flags: Precursor [Macaca mulatta]</Hit_def>
+  <Hit_accession>Q30631</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>4.06264e-93</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>VLGFFIIAVLMSAQESWAIKEEHVI-IQAEFYLNPDQSGEFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNNTPITNVPPEVTVLTNSPVELGEPNVLICFIDKFSPPVVKVTWLKNGKPVTTGVSETVFLPREDHLFRKFHYLPFLPSTEDIYDCKVEHWCLDAPLLKHWEFDAPSPLPETTENVVCALGLIVGLVGIIVGTVFIIKGVRKSNAAERRGPL</Hsp_hseq>
+      <Hsp_midline>+LG   +  +MS      I  +HV       Y     SG++  +FDGDE F+VD+ +KET WR  EF +F  F+ QGAL N+AV K NL IM KR N+T  TN  PEVTV + SPV LG+PN LIC +D   PPVV +TWL NG+ VT GVSET FL + DH F K  YL FLPS  +IYDCKVEHW LD PLLKHWE + P+P+ E TE VVCALGL VGL+GI+VGTVFII+G+R   A+  +GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|P20036.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DP alpha 1 chain; AltName: Full=DP(W3); AltName: Full=DP(W4); AltName: Full=HLA-SB alpha chain; AltName: Full=MHC class II DP3-alpha; AltName: Full=MHC class II DPA1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P20036</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>3.14519e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MFHIRAVILRALSLAFLLSLRGAGAIKADHVSTYAA-FVQTHRPTGEFMFEFDEDEMFYVDLDKKETVWHLEEFGQAFSFEAQGGLANIAILNNNLNTLIQRSNHTQATNDPPEVTVFPKEPVELGQPNTLICHIDKFFPPVLNVTWLCNGELVTEGVAESLFLPRTDYSFHKFHYLTFVPSAEDFYDCRVEHWGLDQPLLKHWEAQEPIQMPETTETVLCALGLVLGLVGIIVGTVLIIKSLRSGHDPRAQGTL</Hsp_hseq>
+      <Hsp_midline>M   +A++L AL+L  ++S  G   I ADHV++      Q + P+G++  EFD DE FYVDL++KET W   EF +   F+ QG L N+A+  +NLN +I+R N T ATN+ PEVTVF K PV LGQPNTLIC +D  FPPV+N+TWL NG+ VTEGV+E+ FL ++D+SF K  YLTF+PSA + YDC+VEHWGLDQPLLKHWE + P  M E TETV+CALGL +GL+GI+VGTV II+ LRS    R QG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|P14439.2|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, E-U alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P14439</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>3.17601e-88</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>ALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVG-ASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>ALLLRFFFIAVLMSSQKSWAIKEEHTI-IQAEFYLLPDKRGEYMFDFDGDEIFHVDIEKSETIWRLEEFAKFASFEAQGALANIAVDKANLDVMKKRSNNTPDANVAPEVTVLSRSPVNLGEPNILVCFIDKFSPPVVNVTWLRNGQPVTEGVSETVFLPRDDHLFRKFHYLTFLPSTDDFYDCEVDHWGLEEPLRKHWEFEEKTLLPETKENVVCALGLFVGLVGIVVGIILIMKGIKKRNVVERRQGAL</Hsp_hseq>
+      <Hsp_midline>ALLL    +  +MS      I  +H        Y      G+Y  +FDGDE F+VD+E+ ET WR  EF+KF  F+ QGAL N+AV K NL++M KR N+T   N  PEVTV S+SPV LG+PN L+C +D   PPVVN+TWL NGQ VTEGVSET FL + DH F K  YLTFLPS  + YDC+V+HWGL++PL KHWE E    + E  E VVCALGL VGL+GIVVG + I++G++      R QG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|P04224.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, E-K alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P04224</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>2.8464e-86</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>ALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVG-ASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>ALVLRFFFIAVLMSSQKSWAIKEEHTI-IQAEFYLLPDKRGEFMFDFDGDEIFHVDIEKSETIWRLEEFAKFASFEAQGALANIAVDKANLDVMKERSNNTPDANVAPEVTVLSRSPVNLGEPNILICFIDKFSPPVVNVTWLRNGRPVTEGVSETVFLPRDDHLFRKFHYLTFLPSTDDFYDCEVDHWGLEEPLRKHWEFEEKTLLPETKENVVCALGLFVGLVGIVVGIILIMKGIKKRNVVERRQGAL</Hsp_hseq>
+      <Hsp_midline>AL+L    +  +MS      I  +H        Y      G++  +FDGDE F+VD+E+ ET WR  EF+KF  F+ QGAL N+AV K NL++M +R N+T   N  PEVTV S+SPV LG+PN LIC +D   PPVVN+TWL NG+ VTEGVSET FL + DH F K  YLTFLPS  + YDC+V+HWGL++PL KHWE E    + E  E VVCALGL VGL+GIVVG + I++G++      R QG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|P01903.2|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DR alpha chain; AltName: Full=MHC class II antigen DRA; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P01903</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>5.47277e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MILNKALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>MAISGVPVLGFFIIAVLMSAQESWAIKEEHVI-IQAEFYLNPDQSGEFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNYTPITNVPPEVTVLTNSPVELREPNVLICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFLPREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCALGLTVGLVGIIIGTIFIIKGLRKSNAAERRGPL</Hsp_hseq>
+      <Hsp_midline>M ++   +LG   +  +MS      I  +HV       Y     SG++  +FDGDE F+VD+ +KET WR  EF +F  F+ QGAL N+AV K NL IM KR N T  TN  PEVTV + SPV L +PN LIC +D   PPVVN+TWL NG+ VT GVSET FL + DH F K  YL FLPS  ++YDC+VEHWGLD+PLLKHWE + P+P+ E TE VVCALGL+VGL+GI++GT+FII+GLR   A+  +GPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P01904.2|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, E-D alpha chain; Short=H2-IE-alpha; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P01904</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>1.68322e-84</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>ALLLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVG-ASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>ALVLRFFFIAVLMSSQKSWAIKEEHTI-IQAEFYLLPDKRGEFMFDFDGDEIFHVDIEKSETIWRLEEFAKFASFEAQGALANIAVDKANLDVMKERSNNTPDANVAPEVTVLSRSPVNLGEPNILICFIDKFSPPVVNVTWLRNGRPVTEGVSETVFLPRDDHLFRKFHYLTFLPSTDDFYDCEVDHWGLEEPLRKTWEFEEKTLLPETKENVMCALGLFVGLVGIVVGIILIMKGIKKRNVVERRQGAL</Hsp_hseq>
+      <Hsp_midline>AL+L    +  +MS      I  +H        Y      G++  +FDGDE F+VD+E+ ET WR  EF+KF  F+ QGAL N+AV K NL++M +R N+T   N  PEVTV S+SPV LG+PN LIC +D   PPVVN+TWL NG+ VTEGVSET FL + DH F K  YLTFLPS  + YDC+V+HWGL++PL K WE E    + E  E V+CALGL VGL+GIVVG + I++G++      R QG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|P20755.1|</Hit_id>
+  <Hit_def>RecName: Full=RLA class II histocompatibility antigen, DP alpha-1 chain; AltName: Full=D10 haplotype [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>P20755</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>4.25981e-77</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>DHVASCGVNLYQFYGPSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL</Hsp_qseq>
+      <Hsp_hseq>EHV-SVFVIFAQTHEPSGECMFEFDEDEVFHVDLDKKQAIWYLPEFGRMFSVEAQGGLANIAAAKSNLNACIQHSNHTQAPNEPPEVIVFPKEPVELGQPNTLICHIDKFFPPVLNVTWLRNGQPVTEGVSETVFLASTEFRFRKFHYLAFVPSAADVYDCRVEHWGLDAPLLTHWEAQEPIQMPETTETVVCALGLVVGLAGVVVGIVLITKALRSSPDPRARRPL</Hsp_hseq>
+      <Hsp_midline>+HV S  V   Q + PSG+   EFD DE F+VDL++K+  W  PEF +    + QG L N+A AK NLN  I+  N T A NE PEV VF K PV LGQPNTLIC +D  FPPV+N+TWL NGQ VTEGVSET FL+ ++  F K  YL F+PSA ++YDC+VEHWGLD PLL HWE + P  M E TETVVCALGL VGL G+VVG V I + LRS    R + PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P28078.1|</Hit_id>
+  <Hit_def>RecName: Full=Class II histocompatibility antigen, M alpha chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P28078</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>2.27599e-23</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>PSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPE------VTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLR</Hsp_qseq>
+      <Hsp_hseq>PNIGLSETYDEDELFSFDFSQNTRVPRLPDFAEWA--QGQGDASAIAFGK-SFCEMLMREVSPKLEGQIPVSRGLSVAEVFTLKPLEFGKPNTLVCFISNLFPPTLTVNWQLHSAPV-EGASPTSISAVDGLTFQAFSYLNFTPEPFDLYSCTVTHEIDRYTAIAYWVPQNALP-SDLLENALCGVAFALGVLGTIIGIVFFLCSQR</Hsp_hseq>
+      <Hsp_midline>P+   +  +D DE F  D  +     R P+F+++     QG    +A  K +   M+ R  S     ++P         VF+  P+  G+PNTL+C + N+FPP + + W  +   V EG S TS  +    +F   SYL F P   ++Y C V H       + +W P+   P S+L E  +C +  ++G++G ++G VF +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|P28067.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DM alpha chain; AltName: Full=MHC class II antigen DMA; AltName: Full=Really interesting new gene 6 protein; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P28067</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.76402e-17</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>PSGQYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYN-----STAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDH-SFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGL</Hsp_qseq>
+      <Hsp_hseq>PSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWA--QEQGDAPAILFDKEFCEWMIQQIGPKLDGKIPVSRGFPIAEVFTLKPLEFGKPNTLVCFVSNLFPPMLTVNWHDHSVPV-EGFGPT-FVSAVDGLSFQAFSYLNFTPEPSDIFSCIVTHEIDRYTAIAYWVPRNALP-SDLLENVLCGVAF</Hsp_hseq>
+      <Hsp_midline>PS   +  +D D+ F+ D  +     R PEF+ +     QG    +   K     MI++           +   P   VF+  P+  G+PNTL+C V N+FPP++ + W  +   V EG   T F+S  D  SF   SYL F P   +I+ C V H       + +W P    P S+L E V+C +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|P23068.1|</Hit_id>
+  <Hit_def>RecName: Full=Class II histocompatibility antigen, B-L beta chain [Gallus gallus]</Hit_def>
+  <Hit_accession>P23068</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.4086e-16</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>QYTHEFDGDEQFYVDLERKETAWRWPEFSKFGGFDPQGALRNMAVAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFII</Hsp_qseq>
+      <Hsp_hseq>QYVH-FDSDVGLFV----ADTVLGEPSAKLFNS-QPDVLEKNRAAVEMLCNYNYEIVAPLTLQRREPKVRIFALQSGSLPQTDRLACYVTGFYPPEIEVKWFQNGQEETERVVSTDVIQNGDWTYQVLVVLEISPRHGDSYVCQVEHTSLQQPITQRWEP--PGDVSR-SKLLMGVGGFVLGLVYLALGIFFFL</Hsp_hseq>
+      <Hsp_midline>QY H FD D   +V     +T    P    F    P    +N A  +   N   +           P+V +F+    +L Q + L C V   +PP + + W  NGQ  TE V  T  +   D ++  +  L   P  G+ Y C+VEH  L QP+ + WEP  P  +S  ++ ++   G  +GL+ + +G  F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|P06345.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-S beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P06345</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>5.73101e-16</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVVISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLISNGDWTFQVLVMLEMTPRRGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +S  D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|P06346.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-F beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P06346</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.18788e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVVISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMAPRRGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|P18470.1|</Hit_id>
+  <Hit_def>RecName: Full=DLA class II histocompatibility antigen, DR-1 beta chain; Flags: Precursor [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>P18470</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.87366e-15</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>AKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>CRHNYGVI---ESFTVQRRVEPTVTVYPTKTQTLQHHNLLVCSVNGFYPGHIEVRWLRNGQEEEAGVVSTGLIRNGDWTFQILVMLEIVPQSGEVYTCQVEHPSLTSPVTVEWRAQSDSAQSKMLS----------GIGGFVLGLLFLAVGL</Hsp_hseq>
+      <Hsp_midline> +HN  ++    + T      P VTV+     TL   N L+C V+  +P  + + WL NGQ    GV  T  +   D +F  +  L  +P +GE+Y C+VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|Q6QAT4.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin; Flags: Precursor [Ovis aries]</Hit_def>
+  <Hit_accession>Q6QAT4</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.38939e-15</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEI</Hsp_qseq>
+      <Hsp_hseq>AIQRIPEVQVYSRHPPEDGKPNYLNCYVYGFHPPQIEIDLLKNGEKIKSEQSDLSF--SKDWSFYLLSHAEFTPNSKDQYSCRVNHVTLTQPKIVKWDRDL</Hsp_hseq>
+      <Hsp_midline>A   +PEV V+S+ P   G+PN L C V    PP + I  L NG+ +    S+ SF    D SF+ +S+  F P++ + Y C+V H  L QP +  W+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|P01921.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-D beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P01921</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.84373e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVAISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMTPHQGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|P06342.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-Q beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P06342</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.84373e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVAISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMTPHQGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|P06344.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-U beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P06344</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.97039e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVVISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMTPRRGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|P06343.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A-K beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P06343</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>3.52137e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPSVVISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMTPRRGEVYTCHVEHPSLKSPITVEWRAQSESARSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|P14483.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, A beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P14483</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>4.45985e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>EQPNVVISLSRTEALNHHNTLVCSVTDFYPAKIKVRWFRNGQEETVGVSSTQLIRNGDWTFQVLVMLEMTPRRGEVYTCHVEHPSLKSPITVEWRAQSESAWSKMLS----------GIGGCVLGVIFLGLGL</Hsp_hseq>
+      <Hsp_midline>E P V +       L   NTL+C V + +P  + + W  NGQ  T GVS T  +   D +F  +  L   P  GE+Y C VEH  L  P+   W  +  +  S++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|P06341.1|</Hit_id>
+  <Hit_def>RecName: Full=Rano class II histocompatibility antigen, A beta chain; AltName: Full=RT1 class II histocompatibility antigen, A beta chain [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P06341</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.56318e-15</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGP</Hsp_qseq>
+      <Hsp_hseq>ERPNVAISLSRTEALNHHNLLVCSVTDFYPAQIKVRWFRNGQEETTGVVSTQLIKNGDWTFQILVMLEMTPQRGDVYTCHVDHASLESPVTVEWRAQSESAQSKMLS----------GIGGLVLGVIFLGLGL-FIRHKRQKGP</Hsp_hseq>
+      <Hsp_midline>E P V +       L   N L+C V + +P  + + W  NGQ  T GV  T  +   D +F  +  L   P  G++Y C V+H  L+ P+   W  +  +  S++            G+ G+V+G +F+  GL  +   R +GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|P15464.1|</Hit_id>
+  <Hit_def>RecName: Full=SMH class II histocompatibility antigen, beta-1 chain; Flags: Precursor [Nannospalax ehrenbergi]</Hit_def>
+  <Hit_accession>P15464</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>5.88543e-15</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>PEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASR</Hsp_qseq>
+      <Hsp_hseq>PKVHVSPSKGGTLNHHNLLVCQVTDFYPGNIQVRWFRNNQEETTGISTTNPIRNGDWTFQILVTLEMTPQRGDVYTCHVEHPSLDRPITVEWRAQSD---SARNKTLTGVGGLVLGLIFLAVGLIMHVRSKKAQRGSR</Hsp_hseq>
+      <Hsp_midline>P+V V      TL   N L+C V + +P  + + W  N Q  T G+S T+ +   D +F  +  L   P  G++Y C VEH  LD+P+   W  +     S   +T+    GL +GL+ + VG +  ++  ++   SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|P01888.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin; AltName: Full=Lactollin; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P01888</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>8.29401e-15</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEI</Hsp_qseq>
+      <Hsp_hseq>AIQRPPKIQVYSRHPPEDGKPNYLNCYVYGFHPPQIEIDLLKNGEKIKSEQSDLSF--SKDWSFYLLSHAEFTPNSKDQYSCRVKHVTLEQPRIVKWDRDL</Hsp_hseq>
+      <Hsp_midline>A    P++ V+S+ P   G+PN L C V    PP + I  L NG+ +    S+ SF    D SF+ +S+  F P++ + Y C+V+H  L+QP +  W+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|P29826.1|</Hit_id>
+  <Hit_def>RecName: Full=Rano class II histocompatibility antigen, B-1 beta chain; AltName: Full=RT1 class II histocompatibility antigen, B-1 beta chain; AltName: Full=RT1.B-beta(1); Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P29826</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.41703e-14</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>EVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGLRSVGASRHQGP</Hsp_qseq>
+      <Hsp_hseq>EQPNVAISLSRTEALNHHNLLVCSVTDFYPAQIKVRWFRNGQEETAGVVSTQLIRNGDWTFQILVMLEMTPQRGEVYICHVDHPSLESPVTVEWRAQSESAQSKMLS----------GIGGFVLGVIFLGLGL-FIRHKRQKGP</Hsp_hseq>
+      <Hsp_midline>E P V +       L   N L+C V + +P  + + W  NGQ  T GV  T  +   D +F  +  L   P  GE+Y C V+H  L+ P+   W  +  +  S++            G+ G V+G +F+  GL  +   R +GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|Q07717.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin; AltName: Full=Lactollin; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>Q07717</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.31798e-14</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWE</Hsp_qseq>
+      <Hsp_hseq>AVARPPKVQVYSRHPAENGKPNYLNCYVSGFHPPQIEIDLLKNGEKMNAEQSDLSF--SKDWSFYLLVHTEFTPNAVDQYSCRVKHVTLDKPKIVKWD</Hsp_hseq>
+      <Hsp_midline>A    P+V V+S+ P   G+PN L C V    PP + I  L NG+ +    S+ SF    D SF+ + +  F P+A + Y C+V+H  LD+P +  W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|P21611.3|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>P21611</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>4.31277e-14</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEI</Hsp_qseq>
+      <Hsp_hseq>AQADLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPM-EGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF</Hsp_hseq>
+      <Hsp_midline>A  +  P+V V+S+ P + G  N L C      PP ++IT + +G  + EG   +      D +F ++ +  F PS+G  Y CKVEH  L +P +  W+PE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|P21612.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>P21612</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>6.79312e-14</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>VPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEI</Hsp_qseq>
+      <Hsp_hseq>TPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPM-EGAQYSDMSFNDDWSFQRLVYADFTPSSDAVYTCKVDHETLKEPQVYKWDPEF</Hsp_hseq>
+      <Hsp_midline> P+V V+S+ P + G  N L C      PP ++IT + +G  + EG   +      D SF ++ Y  F PS+  +Y CKV+H  L +P +  W+PE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|P04440.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DP beta 1 chain; AltName: Full=HLA class II histocompatibility antigen, DP(W4) beta chain; AltName: Full=MHC class II antigen DPB1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P04440</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.92267e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>PEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVG</Hsp_qseq>
+      <Hsp_hseq>PRVNVSPSKKGPLQHHNLLVCHVTDFYPGSIQVRWFLNGQEETAGVVSTNLIRNGDWTFQILVMLEMTPQQGDVYTCQVEHTSLDSPVTVEWKAQSDSARS---KTLTGAGGFVLGLIICGVG</Hsp_hseq>
+      <Hsp_midline>P V V       L   N L+C V + +P  + + W  NGQ  T GV  T+ +   D +F  +  L   P  G++Y C+VEH  LD P+   W+ +  +  S   +T+  A G  +GL+   VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|P15982.1|</Hit_id>
+  <Hit_def>RecName: Full=SLA class II histocompatibility antigen, DQ haplotype C beta chain; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P15982</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.68225e-13</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSEL</Hsp_qseq>
+      <Hsp_hseq>VCKHNYQI---EEGTTLQRRVQPTVTISPSKAEALNHHNLLVCAVTDFYPSQVKVQWFRNGQEETAGVVSTPLIRNGDWTYQVLVMLEMNLQRGDVYTCRVEHSSLQNPILVEWRAQSESAQSKM</Hsp_hseq>
+      <Hsp_midline>V KHN  I      +T      P VT+       L   N L+C V + +P  V + W  NGQ  T GV  T  +   D ++  +  L      G++Y C+VEH  L  P+L  W  +  +  S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|Q30154.1|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DR beta 5 chain; AltName: Full=DR beta-5; AltName: Full=DR2-beta-2; AltName: Full=Dw2; AltName: Full=MHC class II antigen DRB5; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q30154</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>3.10581e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>PEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSEL</Hsp_qseq>
+      <Hsp_hseq>PKVTVYPARTQTLQHHNLLVCSVNGFYPGSIEVRWFRNSQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRAQSESAQSKM</Hsp_hseq>
+      <Hsp_midline>P+VTV+     TL   N L+C V+  +P  + + W  N Q    GV  T  +   D +F  +  L  +P +GE+Y C+VEH  +  PL   W  +  +  S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|P15983.1|</Hit_id>
+  <Hit_def>RecName: Full=SLA class II histocompatibility antigen, DQ haplotype D beta chain; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>P15983</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>3.48279e-13</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VAKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSEL</Hsp_qseq>
+      <Hsp_hseq>VCKHNYQI---EEGTTLQRRVQPTVTISPSKAEALNHHNLLVCAVTDFYPSQVKVQWFRNGQEETAGVVSTPLIRNGDWTYQVLVMLEMNLQRGDVYTCRVEHSSLQSPILVEWRAQSESAQSKM</Hsp_hseq>
+      <Hsp_midline>V KHN  I      +T      P VT+       L   N L+C V + +P  V + W  NGQ  T GV  T  +   D ++  +  L      G++Y C+VEH  L  P+L  W  +  +  S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|P13762.2|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen, DR beta 4 chain; AltName: Full=MHC class II antigen DRB4; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P13762</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>5.77984e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>PEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSEL</Hsp_qseq>
+      <Hsp_hseq>PKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRNGQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSMMSPLTVQWSARSESAQSKM</Hsp_hseq>
+      <Hsp_midline>P+VTV+      L   N L+C V+  +P  + + W  NGQ    GV  T  +   D +F  +  L  +P +GE+Y C+VEH  +  PL   W     +  S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|P35737.1|</Hit_id>
+  <Hit_def>RecName: Full=Class II histocompatibility antigen, M beta 1 chain; AltName: Full=H2-M beta 1 chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P35737</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.02671e-12</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>YNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSV-TEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVG</Hsp_qseq>
+      <Hsp_hseq>WNALTHRTRPPSVRVAQTTPFNTREPVMLACYVWGFYPADVTITWMKNGQLVPSHSNKEKTAQPNGDWTYQTVSYLALTPSYGDVYTCVVQHSGTSEPIRGDWTPGL-SPI-QTVKVSVSAATLGLGFIIFCVG</Hsp_hseq>
+      <Hsp_midline>+N+       P V V   +P    +P  L C V   +P  V ITW+ NGQ V +    E +     D ++  +SYL   PS G++Y C V+H G  +P+   W P + +P+ +  +  V A  L +G +   VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|P18468.1|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen, I-A beta chain; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P18468</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.38432e-12</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>AKHNLNIMIKRYNSTAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCALGLSVGLMGIVVGTVFIIQGL</Hsp_qseq>
+      <Hsp_hseq>CRHNYEIFD---NFLVPRRVEPTVTVYPTKTQPLEHHNLLVCSVSDFYPGNIEVRWFRNGKEEKTGIVSTGLVRNGDWTFQTLVMLETVPQSGEVYTCQVEHPSLTDPVTVEWKAQSTSAQNKMLS----------GVGGFVLGLLFLRAGL</Hsp_hseq>
+      <Hsp_midline> +HN  I     N        P VTV+      L   N L+C V + +P  + + W  NG+    G+  T  +   D +F  +  L  +P +GE+Y C+VEH  L  P+   W+ +  +  +++            G+ G V+G +F+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|Q9PRF8.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin; Flags: Precursor [Acipenser baerii]</Hit_def>
+  <Hit_accession>Q9PRF8</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.86068e-12</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTEGVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHWEPEI</Hsp_qseq>
+      <Hsp_hseq>ATEAMPKVQIYSRNVGELGKPNTLICHVSGFHPPNIKLQLLKNDVEI-EGAQQSDLAFHQGWHFHLTKSVAFTPKEGEHYSCKVEHSTLREATRFTWTPDM</Hsp_hseq>
+      <Hsp_midline>AT  +P+V ++S++   LG+PNTLIC V    PP + +  L N   + EG  ++         F     + F P  GE Y CKVEH  L +     W P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|Q04714.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-2-microglobulin [Mus spretus]</Hit_def>
+  <Hit_accession>Q04714</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.22266e-12</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGQSVTE-GVSETSFLSKSDHSFFKISYLTFLPSAGEIYDCKVEHWGLDQPLLKHW</Hsp_qseq>
+      <Hsp_hseq>PQIQVYSRHPPENGKPNILNCYVTQFHPPQIEIQMLKNGEIIPKVEMSDLSF--SKDWSFYILAHTEFTPTETDQYACRVNHVSMDKPMTVNW</Hsp_hseq>
+      <Hsp_midline>P++ V+S+ P   G+PN L C V    PP + I  L NG+ + +  +S+ SF    D SF+ +++  F P+  + Y C+V H  +D+P+  +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>482424</Statistics_db-num>
+      <Statistics_db-len>183355587</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
