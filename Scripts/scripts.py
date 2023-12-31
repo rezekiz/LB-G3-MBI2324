@@ -1,6 +1,6 @@
-# ATENÇÃO À UTILIZAÇÃO DESTA FUNÇÃO
-# DEMASIADAS QUERIES SEGUIDAS PODEM LEVAR A BLOQUEIO POR PARTE DO SERVIDOR
-# EM PRINCÍPIO O MÓDULO ENTREZ ESTÁ PREPARADO PARA LIDAR COM ISSO MAS CONVÉM TER SEMPRE CUIDADO
+####################################
+# Secção de Pesquisa Bibliográfica #
+####################################
 
 def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N', ext='txt'):
     '''
@@ -155,7 +155,9 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 
     return fetch_res
 
-### Ferramentas de análise de features
+#################################
+# Secção de análise de features #
+#################################
 
 def parsing(nome_ficheiro):
 
@@ -189,7 +191,6 @@ def anot(nome_ficheiro):
         print(anotacao, "->", record.annotations[anotacao])
 
     return   
-
 
 def features_qualifiers(nome_ficheiro):
     
@@ -232,6 +233,31 @@ def conta_aa(fastafile):
     
     return contagem_aa
 
+def swiss_prot_scan(swiss_id):
+    from Bio import SeqIO
+    from Bio import ExPASy
+    # Efetuamos uma pesquisa na base de dados SwissProt 
+    handle = ExPASy.get_sprot_raw(swiss_id) # Encontramos o ID ao ler o ficheiro fasta
+    sr = SeqIO.read(handle, "swiss")
+    print(
+        f'ID {sr.id}',
+        f'Sequência: {sr.seq}',
+        f'Tamanho da sequência: {len(sr.seq)} bp',
+        f'Nome: {sr.name}',
+        f'Descrição: {sr.description}',
+        f'Taxonomia: {sr.annotations["taxonomy"]}',
+        f'Organismo: {sr.annotations["organism"]}',
+        f'Keywords: {sr.annotations["keywords"]}',
+        sep = '\n')
+    
+# Acrescentar função PDB
+    
+# Acrescentar motifs?
+
+
+#############################################
+# Secção de Análise de Homologias por BLAST #
+#############################################
 
 # Parsing de Blast Records 
 
@@ -264,27 +290,6 @@ def blast_parse(filename, lim = None, ethreshold = 0.05):
                     print(hsp.sbjct[0:40]+'...')
                     print()
                     num += 1    
-
-# Analise na BD SwissProt
-# TODO integrar esta função na função de análise
-
-def swiss_prot_scan(swiss_id):
-    from Bio import SeqIO
-    from Bio import ExPASy
-    # Efetuamos uma pesquisa na base de dados SwissProt 
-    handle = ExPASy.get_sprot_raw(swiss_id) # Encontramos o ID ao ler o ficheiro fasta
-    sr = SeqIO.read(handle, "swiss")
-    print(
-        f'ID {sr.id}',
-        f'Sequência: {sr.seq}',
-        f'Tamanho da sequência: {len(sr.seq)} bp',
-        f'Nome: {sr.name}',
-        f'Descrição: {sr.description}',
-        f'Taxonomia: {sr.annotations["taxonomy"]}',
-        f'Organismo: {sr.annotations["organism"]}',
-        f'Keywords: {sr.annotations["keywords"]}',
-        sep = '\n')
-    
 
 # Função que executa análise Blast caso o ficheiro blast não exista para fazer parsing
     
@@ -351,6 +356,6 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
 
         
 
-        print(f'Ficheiro {xmlfile} gravado.')
+        print(f'Ficheiro {xmlfile} gravado. Para realizar um blast parse ir buscar o ficheiro à pasta output')
         
         handle.close()

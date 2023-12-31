@@ -561,3 +561,33 @@ PMID: 20405052 [Indexed for MEDLINE]
 
 Conflict of interest statement: Competing Interests: The authors have declared 
 that no competing interests exist.
+
+
+11. Hum Immunol. 2001 May;62(5):504-8. doi: 10.1016/s0198-8859(01)00236-1.
+
+Absence of in vivo DNA-protein interactions in the DQA2 and DQB2 promoter 
+regions.
+
+Indovina P(1), Megiorni F, Fontemaggi G, Coni P, Mora B, Mazzilli MC.
+
+Author information:
+(1)Dipartimento di Medicina Sperimentale e Patologia, Università "La Sapienza,", 
+Rome, Italy.
+
+The DQ subregion of the human major histocompatibility complex (HLA) contains 
+two pairs of loci: the DQA1/B1 genes (hereafter called DQ1), coding for the DQ 
+molecules, and the DQA2/B2 pseudogenes (hereafter called DQ2). These pseudogenes 
+are highly homologous to the functional DQ1 genes and they have no apparent 
+abnormal features in their sequences that could prevent their activity. Only 
+recently a low expression of the DQA2 gene has been observed whereas the DQB2 
+transcript was never found. The comparison between the DQ1 and DQ2 regulatory 
+sequences revealed several differences in their W, X, and Y cis-acting elements. 
+To examine the DNA/protein interactions in the DQ promoter regions, we performed 
+in vivo footprinting experiments. Whereas the functional DQ1 loci showed a 
+series of DNA-protein contact points in the X and Y boxes, the promoters of the 
+DQ2 pseudogenes displayed an unoccupied phenotype. These findings suggest that 
+the very low level of DQA2 expression and the apparent lack of DQB2 activity are 
+caused by the reduced binding affinity of specific transcription factors.
+
+DOI: 10.1016/s0198-8859(01)00236-1
+PMID: 11334674 [Indexed for MEDLINE]
