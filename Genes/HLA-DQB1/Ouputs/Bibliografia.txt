@@ -1,0 +1,467 @@
+1. HLA. 2023 Dec 6. doi: 10.1111/tan.15318. Online ahead of print.
+
+Genomic full-length sequence of the novel HLA-DQB1*04:01:01:04 allele.
+
+Yang JJ(1), Oh HB(2).
+
+Author information:
+(1)Department of Laboratory Medicine, Korea University College of Medicine, 
+Seoul, South Korea.
+(2)Department of Laboratory Medicine, Asan Medical Center, University of Ulsan 
+College of Medicine, Seoul, South Korea.
+
+The sequence of HLA-DQB1*04:01:01:04 differs from HLA-DQB1*04:01:01:03 by four 
+nucleotide deletion in intron 2.
+
+© 2023 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+
+DOI: 10.1111/tan.15318
+PMID: 38056499
+
+
+2. HLA. 2023 Dec 1. doi: 10.1111/tan.15315. Online ahead of print.
+
+Three novel variants of HLA-DQB1*06 identified by next-generation sequencing.
+
+Marin Rubio LA(1), Ontañon J(1).
+
+Author information:
+(1)Immunology Unit, Clinical Analysis Department, Albacete University Hospital 
+Complex, Albacete, Spain.
+
+Characterization of HLA-DQB1*06:472, -DQB1*06:02:01:34 and -DQB1*06:04:01:06 
+alleles in Spanish individuals.
+
+© 2023 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+
+DOI: 10.1111/tan.15315
+PMID: 38037899
+
+
+3. Front Immunol. 2023 Nov 3;14:1272021. doi: 10.3389/fimmu.2023.1272021. 
+eCollection 2023.
+
+High maternal-fetal HLA eplet compatibility is associated with severe 
+manifestation of preeclampsia.
+
+Stefańska K(#)(1), Kurkowiak M(#)(2), Piekarska K(3)(4)(5), Chruściel E(2), 
+Zamkowska D(1), Jassem-Bobowicz J(6), Adamski P(1), Świątkowska-Stodulska R(7), 
+Abacjew-Chmyłko A(1), Leszczyńska K(1), Zieliński M(4), Preis K(1), Zielińska 
+H(3)(4), Tymoniuk B(8), Trzonkowski P(4), Marek-Trzonkowska NM(2)(5).
+
+Author information:
+(1)Department of Gynecology and Obstetrics Medical University of Gdansk, Gdańsk, 
+Poland.
+(2)International Centre for Cancer Vaccine Science (ICCVS), University of 
+Gdańsk, Gdańsk, Poland.
+(3)Laboratory of Immunology and Clinical Transplantology, University Clinical 
+Centre in Gdańsk, Gdańsk, Poland.
+(4)Department of Medical Immunology, Medical University of Gdansk, Gdańsk, 
+Poland.
+(5)Laboratory of Immunoregulation and Cellular Therapies, Department of Family 
+Medicine, Medical University of Gdansk, Gdańsk, Poland.
+(6)Department of Neonatology, Medical University of Gdansk, Gdańsk, Poland.
+(7)Department of Endocrinology and Internal Medicine, Medical University of 
+Gdansk, Gdańsk, Poland.
+(8)Department of Immunology and Allergy, Medical University of Łódź, Łódź, 
+Poland.
+(#)Contributed equally
+
+INTRODUCTION: Preeclampsia is responsible for more than 70 000 and 500 000 
+maternal and fetal deaths, respectively each year. Incomplete remodelling of the 
+spiral arteries in placenta is the most accepted theory of preeclampsia 
+pathogenesis. However, the process is complexed with immunological background, 
+as pregnancy resembles allograft transplantation. Fetus expresses human 
+leukocyte antigens (HLA) inherited from both parents, thus is semiallogeneic to 
+the maternal immune system. Therefore, induction of fetal tolerance is crucial 
+for physiological outcome of pregnancy. Noteworthy, the immunogenicity of 
+discordant HLA antigens is determined by functional epitopes called eplets, 
+which are continuous and discontinuous short sequences of amino acids. This way 
+various HLA molecules may express the same eplet and some HLA incompatibilities 
+can be more immunogenic due to different eplet combination. Therefore, we 
+hypothesized that maternal- fetal HLA incompatibility may be involved in the 
+pathogenesis of gestational hypertension and its progression to preeclampsia. We 
+also aimed to test if particular maternal-fetal eplet mismatches are more prone 
+for induction of anti- fetal HLA antibodies in gestational hypertension and 
+preeclampsia.
+METHODS: High resolution next-generation sequencing of HLA-A, -B, -C, -DQB1 and 
+-DRB1 antigens was performed in mothers and children from physiological 
+pregnancies (12 pairs) and from pregnancies complicated with gestational 
+hypertension (22 pairs) and preeclampsia (27 pairs). In the next step HLA eplet 
+identification and analysis of HLA eplet incompatibilities was performed with in 
+silico approach HLAMatchmaker algorithm. Simultaneously maternal sera were 
+screened for anti-fetal HLA class I, class II and anti-MICA antibodies with 
+Luminex, and data were analyzed with HLA-Fusion software.
+RESULTS: We observed that high HLA-C, -B, and DQB1 maternal-fetal eplet 
+compatibility was associated with severe preeclampsia (PE) manifestation. Both 
+quantity and quality of HLA epletmismatches affected the severity of PE. 
+Mismatches in HLA-B eplets: 65QIA+76ESN, 70IAO, 180E, HLA-C eplets: 193PL3, 
+267QE, and HLA-DRB1 eplet: 16Y were associated with a mild outcome of 
+preeclampsia if the complication occurred.
+CONCLUSIONS: High HLA-C, HLA-DQB1 and HLA-B eplet compatibility between mother 
+and child is associated with severe manifestation of preeclampsia. Both quantity 
+and quality of maternal-fetal HLA eplet mismatches affects severity of 
+preeclampsia.
+
+Copyright © 2023 Stefańska, Kurkowiak, Piekarska, Chruściel, Zamkowska, 
+Jassem-Bobowicz, Adamski, Świątkowska-Stodulska, Abacjew-Chmyłko, Leszczyńska, 
+Zieliński, Preis, Zielińska, Tymoniuk, Trzonkowski and Marek-Trzonkowska.
+
+DOI: 10.3389/fimmu.2023.1272021
+PMCID: PMC10655094
+PMID: 38022600 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest. The author(s) declared that 
+they were an editorial board member of Frontiers, at the time of submission. 
+This had no impact on the peer review process and the final decision
+
+
+4. Medicina (Kaunas). 2023 Nov 4;59(11):1950. doi: 10.3390/medicina59111950.
+
+Role of Human Leukocyte Antigen Class II in Antibody-Mediated Skin Disorders.
+
+Sernicola A(1), Mazzetto R(1), Tartaglia J(1), Ciolfi C(1), Miceli P(1), Alaibac 
+M(1).
+
+Author information:
+(1)Dermatology Unit, Department of Medicine (DIMED), University of Padua, 35121 
+Padova, Italy.
+
+HLA class II molecules are key factors determining susceptibility to autoimmune 
+disorders, and their role in immune-mediated skin conditions such as psoriasis 
+has been extensively investigated. However, there is currently little 
+understanding of their role in antibody-mediated skin diseases such as 
+autoimmune blistering disorders. We researched the available literature using 
+PubMed to narratively review the current knowledge on HLA associations in 
+antibody-mediated blistering skin pathologies. Our results summarized the risk 
+alleles that are identified in the literature, together with certain known 
+protective alleles: in the pemphigus group, alleles HLA-DQB1*0503 and 
+HLA-DRB1*0402 are most commonly associated with disease; in the pemphigoid 
+group, the most studied allele is HLA-DQB1*0301; in epidermolysis bullosa 
+acquisita, few genetic studies are available; in dermatitis herpetiformis, the 
+association with haplotypes HLA-DQ2 and HLA-DQ8 is strongly established; 
+finally, in linear IgA bullous disease, specific HLA alleles may be responsible 
+for pediatric presentations. Our current pathogenic understanding of this group 
+of disorders assigns a key role to predisposing HLA class II alleles that are 
+able to bind disease autoantigens and therefore stimulate antigen-specific 
+autoreactive T cells. The latter engage B lymphocytes that will produce 
+pathogenic autoantibodies. The distribution of HLA alleles and their disease 
+associations are variable across demographics, and an in-depth pathogenetic 
+understanding is needed to support associations between HLA alleles and disease 
+phenotypes. Additionally, in a personalized medicine approach, the 
+identification of HLA alleles associated with the risk of disease may become 
+clinically relevant in identifying susceptible subjects that should avoid 
+exposure to known triggers, such as medication, when possible.
+
+DOI: 10.3390/medicina59111950
+PMCID: PMC10673328
+PMID: 38003999 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+5. Genes (Basel). 2023 Oct 27;14(11):2010. doi: 10.3390/genes14112010.
+
+Genome-Wide Association Analysis across Endophenotypes in Alzheimer's Disease: 
+Main Effects and Disease Stage-Specific Interactions.
+
+Rosewood TJ(1)(2)(3), Nho K(1)(3)(4), Risacher SL(1)(3), Gao S(1)(5), Shen L(6), 
+Foroud T(1)(2), Saykin AJ(1)(2)(3), On Behalf Of The Alzheimer's Disease 
+Neuroimaging Initiative.
+
+Author information:
+(1)Indiana Alzheimer's Disease Research Center, Indianapolis, IN 46202, USA.
+(2)Department of Medical and Molecular Genetics, Indiana University School of 
+Medicine, Indianapolis, IN 46202, USA.
+(3)Department of Radiology and Imaging Sciences, Indiana University School of 
+Medicine, Indianapolis, IN 46202, USA.
+(4)School of Informatics and Computing, Indiana University, Indianapolis, IN 
+46202, USA.
+(5)Department of Biostatistics, Indiana University School of Medicine, 
+Indianapolis, IN 46202, USA.
+(6)Department of Biostatistics, Epidemiology and Informatics, The Perelman 
+School of Medicine, Philadelphia, PA 19104, USA.
+
+The underlying genetic susceptibility for Alzheimer's disease (AD) is not yet 
+fully understood. The heterogeneous nature of the disease challenges genetic 
+association studies. Endophenotype approaches can help to address this challenge 
+by more direct interrogation of biological traits related to the disease. AD 
+endophenotypes based on amyloid-β, tau, and neurodegeneration (A/T/N) biomarkers 
+and cognitive performance were selected from the Alzheimer's Disease 
+Neuroimaging Initiative (ADNI) cohort (N = 1565). A genome-wide association 
+study (GWAS) of quantitative phenotypes was performed using an SNP main effect 
+and an SNP by Diagnosis interaction (SNP × DX) model to identify disease 
+stage-specific genetic effects. Nine loci were identified as study-wide 
+significant with one or more A/T/N endophenotypes in the main effect model, as 
+well as additional findings significantly associated with cognitive measures. 
+These nine loci include SNPs in or near the genes APOE, SRSF10, HLA-DQB1, XKR3, 
+and KIAA1671. The SNP × DX model identified three study-wide significant genetic 
+loci (BACH2, EP300, and PACRG-AS1) with a neuroprotective effect in later AD 
+stage endophenotypes. An endophenotype approach identified novel genetic 
+associations and provided insight into the molecular mechanisms underlying the 
+genetic associations that may otherwise be missed using conventional 
+case-control study designs.
+
+DOI: 10.3390/genes14112010
+PMCID: PMC10671827
+PMID: 38002954 [Indexed for MEDLINE]
+
+Conflict of interest statement: Andrew Saykin receives support from multiple NIH 
+grants (P30 AG010133, P30 AG072976, R01 AG019771, R01 AG057739, U19 AG024904, 
+R01 LM013463, R01 AG068193, T32 AG071444, U01 AG068057, U01 AG072177, and U19 
+AG074879). He has also received support from Avid Radiopharmaceuticals, a 
+subsidiary of Eli Lilly (in kind contribution of PET tracer precursor); Bayer 
+Oncology (Scientific Advisory Board); Eisai (Scientific Advisory Board); Siemens 
+Medical Solutions USA, Inc. (Dementia Advisory Board); NIH NHLBI (MESA 
+Observational Study Monitoring Board); Springer-Nature Publishing (Editorial 
+Office Support as Editor-in-Chief, Brain Imaging and Behavior). Li Shen has 
+received additional funding paid to the University of Pennsylvania from NSF IIS 
+1622526/1827472, NSF IIS 1837964, NIH RF1 AG063481, NIH R01 LM013463, NIH U01 
+AG068057, NIH R01 AG058854, NIH RF1 AG068191, NIH R01 AG071470, NIH R01 
+EB022574. Li Shen has served as consultant on NIH grant R24 EB029173 from the 
+University of Massachusetts. Tatiana Foroud acts as a consultant for NIH-funded 
+centers and other infrastructure grants and receives funding for travel expenses 
+from the Michael J. Fox Foundation and from academic institutions on which she 
+serves as advisor. Sujuan Gao has served as an unpaid board and committee member 
+on the data safety monitoring board for R01 AG058586, 18G-MC-LMDC, R01 HL151951, 
+and paid data safety monitoring board member for R01 AG061898. Shannon Risacher 
+served as Communications Chair, unpaid, for the Alzheimer’s Association AWARE 
+PIA, as well as received travel funding for the Charleston Conference on 
+Alzheimer’s Disease. She also has equity interest in Eli Lilly (<$10000), a 
+company that may potentially benefit in the research results of this study. Thea 
+Rosewood and Kwangsik Nho have no interests to declare. The funders had no role 
+in the design of this study; in the collection, analyses, or interpretation of 
+data; in the writing of the manuscript; or in the decision to publish the 
+results.
+
+
+6. Immunogenetics. 2023 Nov 18. doi: 10.1007/s00251-023-01325-5. Online ahead of 
+print.
+
+Investigating associations between HLA DQA1 ~ DQB1 haplotypes, H. pylori 
+infection, metaplasia, and anti-CagA IgA seropositivity in a Turkish gastritis 
+cohort.
+
+Colakogullari M(1), Karatas L(2), Tatar Z(2).
+
+Author information:
+(1)Izmir Democracy University, Izmir, Turkey. 
+mukaddes.colakogullari@yahoo.co.uk.
+(2)Izmir Democracy University, Izmir, Turkey.
+
+Helicobacter pylori was reported as an important cause of gastritis, and gastric 
+ulcers and CagA oncoprotein-producing H. pylori subgroups were blamed to 
+increase the severity of gastritis. Disparities were reported in that the 
+presence of serum anti-CagA IgA was not parallel with CagA-positive H. pylori 
+cohabitation. We hypothesized that the HLA-DQA1 ~ DQB1 haplotypes in human 
+populations include protective haplotypes that more effectively present 
+immunogenic CagA peptides and susceptible haplotypes with an impaired capacity 
+to present CagA peptides. We recruited patients (n = 201) admitted for 
+gastroendoscopy procedures and performed high-resolution HLA-DQA1 and DQB1 
+typing. Serum anti-CagA IgA levels were analyzed by ELISA (23.0% positive), and 
+H. pylori was classified as positive or negative in gastric mucosal tissue 
+slides (72.6% positive). The HLA DQA1*05:05 allele (29.1%) and HLA DQB1*03:01 
+allele (32.8%) were found at the highest frequency among gastritis patients of 
+Turkish descent. In HLA DQA1*05:05 ~ DQB1*03:01 double homozygous (7.3%) and 
+heterozygous (40.7%) haplotype carriers, the presence of anti-CagA IgA decreased 
+dramatically, the presence of H. pylori increased, and the presence of 
+metaplasia followed a decreasing trend. The DQ protein encoded by HLA 
+DQA1*05:05-DQ*03:01 showed a low binding affinity to the CagA peptide when 
+binding capacity was analyzed by the NetMHCIIPan 4.0 prediction method. In 
+conclusion, HLA DQA1 ~ DQB1 polymorphisms are crucial as host defense mechanisms 
+against CagA H. pylori since antigen binding capacity plays a crucial role in 
+anti-CagA IgA production.
+
+© 2023. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+part of Springer Nature.
+
+DOI: 10.1007/s00251-023-01325-5
+PMID: 37979046
+
+
+7. Int J Mol Sci. 2023 Oct 31;24(21):15803. doi: 10.3390/ijms242115803.
+
+HLA-DQB1*06 and Select Neighboring HLA Variants Predict Chlamydia Reinfection 
+Risk.
+
+Gupta K(1), Wiener HW(2), Tiwari HK(3), Geisler WM(1)(2).
+
+Author information:
+(1)Department of Medicine, Division of Infectious Diseases, University of 
+Alabama at Birmingham, Birmingham, AL 35294, USA.
+(2)Department of Epidemiology, University of Alabama at Birmingham, Birmingham, 
+AL 35294, USA.
+(3)Department of Biostatistics, University of Alabama at Birmingham, Birmingham, 
+AL 35294, USA.
+
+Associations of HLA class II alleles with genital chlamydial infection outcomes 
+have been reported, especially HLA DQB1*06. However, the potential role of 
+DQB1*06 in influencing reinfection risk has still not been established. The 
+purpose of this study was to determine whether the association of DQB1*06 with 
+chlamydia reinfection was impacted by any other nearby HLA class II variants 
+that were also associated with reinfection. We used next-generation sequencing 
+to map HLA class II variants spanning the HLA-DQ and -DR loci. DQB1*06 as well 
+as DQB1*04 were confirmed as significant predictors of chlamydia reinfection, 
+when controlling for age and percent African ancestry. SKAT analysis revealed 
+one region each in DRB1, DRB5, DQA2, and three intergenic regions that had 
+variants associated with reinfection. Further analyses of these variants 
+revealed that rs112651494 within DRB5 and an intergenic SNP rs617058 in 
+DRB1:DQA1 were significantly associated with reinfection, but this did not 
+impact the significance of the association of DQB1*06 or DQB1*04 with 
+reinfection.
+
+DOI: 10.3390/ijms242115803
+PMCID: PMC10647357
+PMID: 37958786 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+
+8. Acta Orthop Belg. 2023 Sep;89(3):373-380. doi: 10.52628/89.2.10491.
+
+A potential prognostic prediction model for metastatic osteosarcoma based on 
+bioinformatics analysis.
+
+Wang Y, Ming G, Gao B.
+
+Osteosarcoma (OS) is a malignant primary bone tumor with a high incidence. This 
+study aims to construct a prognostic prediction model by screening the 
+prognostic mRNA of metastatic OS. Data on four eligible expression profiles from 
+the National Center for Biotechnology Information Gene Expression Omnibus 
+repository were obtained based on inclusion criteria and defined as the training 
+set or the validation set. The differentially expressed genres (DEGs) between 
+meta- static and non-metastatic OS samples in the training set were first 
+identified, and DEGs related to prognosis were screened by univariate Cox 
+regression analysis. In total, 107 DEGs related to the prognosis of metastatic 
+OS were identified. Then, 46 DEGs were isolated as the optimized prognostic gene 
+signature, and a metastatic-OS discriminating classifier was constructed, which 
+had a high accuracy in distinguishing metastatic from non-metastatic OS samples. 
+Furthermore, four optimized prognostic gene signatures (ALOX5AP, COL21A1, 
+HLA-DQB1, and LDHB) were further screened, and the prognostic prediction model 
+for metastatic OS was constructed. This model possesses a relatively satisfying 
+prediction ability both in the training set and validation set. The prognostic 
+prediction model that was constructed based on the four prognostic mRNA 
+signatures has a high predictive ability for the prognosis of metastatic OS.
+
+DOI: 10.52628/89.2.10491
+PMID: 37935218 [Indexed for MEDLINE]
+
+
+9. Diabetes. 2023 Nov 7:db230387. doi: 10.2337/db23-0387. Online ahead of print.
+
+Increased Frequency of the HLA-DRB1*04:04-DQA1*03-DQB1*03:02 Haplotype among 
+HLA-DQB1*06:02 Positive Children with Type 1 Diabetes.
+
+Ilonen J(1), Kiviniemi M(1), El-Amir MI(1)(2), Nygård L(3), Härkönen T(4), 
+Lempainen J(1)(5)(6), Knip M(4)(7); Finnish Pediatric Diabetes Register.
+
+Author information:
+(1)Immunogenetics Laboratory, Institute of Biomedicine, University of Turku, 
+Turku, Finland.
+(2)Department of Medical Microbiology and Immunology, Faculty of Medicine, South 
+Valley University, Qena, Egypt.
+(3)Department of Clinical Microbiology, Institute of Clinical Medicine, 
+University of Eastern Finland, Kuopio, Finland.
+(4)Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki, Finland.
+(5)Departments of Pediatrics, University of Turku and Turku University Hospital, 
+Turku, Finland.
+(6)Clinical Microbiology, Turku University Hospital, Turku, Finland.
+(7)Pediatric Research Center, Children's Hospital, University of Helsinki and 
+Helsinki University Hospital, Helsinki, Finland.
+
+HLA DR-DQ haplotypes largely define genetic susceptibility to type 1 diabetes 
+(T1D). The DQB1*06:02 positive haplotype (DR15-DQ602) common in subjects of 
+European ancestry is very rare among children with T1D. Among 4490 children with 
+T1D in the Finnish Pediatric Diabetes Register 57 (1.3%) cases with DQB1*06:02 
+were identified in comparison to 26.1% of affected family-based association 
+controls. There was no difference between DQB1*06:02 positive and negative 
+children with T1D regarding sex, age, islet autoantibody distribution or 
+autoantibody levels, but significant differences were seen in the frequency of 
+the second class II HLA haplotypes. The most prevalent haplotype present with 
+DQB1*06:02 was DRB1*04:04-DQA1*03-DQB1*03:02 which was found in 27 of 57 (47.4%) 
+children compared to only 797/4433 (18.0%) among DQB1*06:02 negative cases 
+(P<0.001, Chi-square test). The other common risk associated haplotypes, the 
+DRB1*04:01-DQA1*03-DQB1*03:02 and (DR3)-DQA1*05-DQB1*02 were less prevalent in 
+DQB1*06:02 positive than DQB1*06:02 negative children (P<0.001). HLA-B allele 
+frequencies did not differ between DQB1*06:02 haplotypes in children with T1D 
+and controls and neither in DRB1*04:04-DQA1*03-DQB1*03:02 haplotypes of 
+DQB1*06:02 positive and negative T1D children. The increased frequency of 
+DRB1*04:04 allele among DQB1*06:02 positive cases may indicate preferential 
+ability of the DR404 molecule to present islet antigen epitopes despite of the 
+competition by DQ602.
+
+© 2023 by the American Diabetes Association.
+
+DOI: 10.2337/db23-0387
+PMID: 37934957
+
+
+10. Sleep Med. 2023 Dec;112:234-238. doi: 10.1016/j.sleep.2023.10.028. Epub 2023
+Oct  30.
+
+Narcolepsy type 1 and Sydenham chorea - Report of 3 cases and review of the 
+literature.
+
+Wenz ES(1), Schinkelshoek MS(2), Kallweit U(3), Fronczek R(4), Rezaei R(3), 
+Khatami R(5), Lammers GJ(4), Bassetti CLA(6).
+
+Author information:
+(1)Department of Neurology, Inselspital, Bern University Hospital, University of 
+Bern, Bern, Switzerland; Graduate School of Health Sciences, University of Bern, 
+Switzerland. Electronic address: elena.wenz@insel.ch.
+(2)Neurology Department, Leiden University Medical Center, Heemstede, the 
+Netherlands.
+(3)Center for Narcolepsy and Hypersomnias, Clinical Sleep and Neuroimmunology, 
+Institute of Immunology, University Witten/Herdecke, Germany.
+(4)Neurology Department, Leiden University Medical Center, Heemstede, the 
+Netherlands; Stichting Epilepsie Instellingen Nederland (SEIN), 
+Sleep-Wakecenter, Heemstede, the Netherlands.
+(5)Center for Sleep Medicine and Epileptology, Klinik Barmelweid AG, 
+Switzerland.
+(6)Department of Neurology, Inselspital, Bern University Hospital, University of 
+Bern, Bern, Switzerland.
+
+OBJECTIVES/BACKGROUND: Narcolepsy type 1 (NT1) is an immune-mediated disorder 
+characterized by excessive daytime sleepiness, cataplexy, low levels of 
+hypocretin-1 in the cerebrospinal fluid, and a strong association with the HLA 
+DQB1*06:02 allele. There is evidence for streptococcal infections as one 
+pathogenic factor that may lead to NT1 as part of a multifactorial pathogenesis. 
+Elevated titers of Antistreptolysin-O antibodies and increased inflammatory 
+activity in response to streptococci antigens have been described in patients 
+with NT1. Sydenham chorea (SC) results from a post-streptococcal autoimmune 
+process targeting basal ganglia neurons. Despite this common trigger, SC has 
+been interpreted as a misdiagnosis in a few described cases of patients who were 
+first diagnosed with SC and later with NT1. Our goal was to analyze the 
+association between SC and NT1.
+PATIENTS/METHODS: We reviewed the literature and report three patients from 
+three European sleep centers who were diagnosed with both SC and NT1 within a 
+few months.
+RESULTS: We describe the cases of one male (age 10) and two female (age 22 and 
+10) patients.
+CONCLUSIONS: We argue that in those cases both diagnoses are justified, unlike 
+reports of previous cases in which SC was considered a misdiagnosis in patients 
+with NT1. It remains, however, unclear if the conditions occur independently or 
+if there is an overlap disorder- an SC-like subtype of narcolepsy with a 
+particular sequence of symptoms. Further studies need to clarify the causality 
+of the relationship and the pathophysiology of the reported rare association.
+
+Copyright © 2023. Published by Elsevier B.V.
+
+DOI: 10.1016/j.sleep.2023.10.028
+PMID: 37925849 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare the following financial interests/personal relationships which may be 
+considered as potential competing interests: Elena S. Wenz reports a 
+relationship with University of Bern that includes: funding grants. Ulf Kallweit 
+reports a relationship with Bioprojet, Jazz Pharmaceuticals, Takeda 
+Pharmaceuticals that includes: consulting or advisory and speaking and lecture 
+fees. Rolf Fronczek reports a relationship with Takeda Pharmaceuticals, 
+Bioprojet that includes: consulting or advisory. Rolf Fronczek reports a 
+relationship with Jazz Pharmaceuticals that includes: funding grants. Gert Jan 
+Lammers reports a relationship with Bioprojet, Jazz Pharmaceuticals, Takeda 
+Pharmaceuticals, NLS Pharmaceutics that includes: consulting or advisory and 
+speaking and lecture fees.
