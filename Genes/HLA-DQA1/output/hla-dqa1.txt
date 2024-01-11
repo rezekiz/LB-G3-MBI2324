@@ -1,4 +1,167 @@
-1. Mult Scler Relat Disord. 2023 Dec 14;82:105373. doi: 
+1. Clin Immunol. 2024 Jan 8:109897. doi: 10.1016/j.clim.2024.109897. Online ahead
+ of print.
+
+The genome-wide association study of serum IgE levels demonstrated the shared 
+genetic background in allergic diseases.
+
+Lu HF(1), Chou CH(2), Lin YJ(3), Uchiyama S(4), Terao C(5), Wang YW(6), Yang 
+JS(6), Liu TY(6), Wong HS(7), Chen SC(7), Tsai FJ(8).
+
+Author information:
+(1)Department of Medical Research, China Medical University Hospital, Taichung 
+404327, Taiwan; Laboratory for Statistical and Translational Genetics, RIKEN 
+Center for Integrative Medical Sciences, Yokohama, Japan; Genetic Center, 
+Department of Medical Research, China Medical University Hospital, Taichung, 
+Taiwan.
+(2)PhD Program for Health Science and Industry, College of Health Care, China 
+Medical University, Taichung, Taiwan; Department of Health Services 
+Administration, China Medical University, Taichung, Taiwan; Department of 
+Medical Research, China Medical University Hospital, Taichung 404327, Taiwan.
+(3)Genetic Center, Department of Medical Research, China Medical University 
+Hospital, Taichung, Taiwan; School of Chinese Medicine, China Medical 
+University, Taichung, Taiwan.
+(4)Laboratory for Statistical and Translational Genetics, RIKEN Center for 
+Integrative Medical Sciences, Yokohama, Japan.
+(5)Laboratory for Statistical and Translational Genetics, RIKEN Center for 
+Integrative Medical Sciences, Yokohama, Japan; Clinical Research Center, 
+Shizuoka General Hospital, Shizuoka, Japan; The Department of Applied Genetics, 
+The School of Pharmaceutical Sciences, University of Shizuoka, Shizuoka, Japan.
+(6)Department of Medical Research, China Medical University Hospital, Taichung 
+404327, Taiwan.
+(7)Graduate Institute of Biomedical Informatics, College of Medical Science and 
+Technology, Taipei Medical University, Taipei, Taiwan.
+(8)Department of Medical Research, China Medical University Hospital, Taichung 
+404327, Taiwan; School of Chinese Medicine, China Medical University, Taichung, 
+Taiwan; School of Chinese Medicine, China Medical University, Taichung, Taiwan; 
+Department of Biotechnology and Bioinformatics, Asia University, Taichung, 
+Taiwan. Electronic address: d0704@mail.cmuh.org.tw.
+
+Immunoglobulin E (IgE) is highly related to a variety of atopic diseases, and 
+several genome-wide association studies (GWASs) have demonstrated the 
+association between genes and IgE. In this study, we conducted the largest 
+genome-wide association study of IgE in a Taiwanese Han population. A total of 8 
+independent variants showed genome-wide significance, and rs147642819 at 6p21.32 
+was the most significant signal (p = 1.8 × 10-19). Among them, an intronic SNP 
+of CD28, rs1181388, and an intergenic SNP, rs1002957030, on 11q23.2 were 
+identified as novel signals for IgE. Seven of the loci were replicated 
+successfully after a meta-analysis of the Japanese population. Among all the 
+human leukocyte antigen (HLA) regions, HLA-DQA1*03:02 - HLA-DQB1*03:03 was the 
+most significant haplotype (OR = 1.25, SE = 0.02, FDR = 1.6 × 10-14), 
+corresponding to HLA-DQA1 Asp160 and HLA-DQB1 Leu87 amino residues. The genetic 
+correlation showed significance between IgE and allergic diseases including 
+asthma, atopic dermatitis, and pollinosis. The IgE PRS significantly correlated 
+with the total IgE level. Furthermore, the top 10 quantile IgE polygenic risk 
+score (PRS) group had a potentially higher risk for asthma, which was also 
+replicated in the Taiwan Biobank and Japanese populations. IgE PRS may be used 
+to aid in predicting the occurrence of allergic reactions before symptoms occur 
+and biomarkers are detectable. Our study provided a more comprehensive 
+understanding of the impact of genomic variants on serum IgE.
+
+Copyright © 2024. Published by Elsevier Inc.
+
+DOI: 10.1016/j.clim.2024.109897
+PMID: 38199299
+
+Conflict of interest statement: Declaration of competing interest All authors 
+declare that they have no other relevant conflicts of interest.
+
+
+2. Commun Biol. 2024 Jan 5;7(1):41. doi: 10.1038/s42003-023-05701-5.
+
+Human leukocyte antigen-DQA1*04:01 and rs2040406 variants are associated with 
+elevated risk of childhood Burkitt lymphoma.
+
+Liu Z(#)(1), Luo Y(#)(2)(3)(4)(5)(6)(7), Kirimunda S(8), Verboom M(9), Onabajo 
+OO(1), Gouveia MH(10), Ogwang MD(11)(12), Kerchan P(12)(13), Reynolds SJ(14), 
+Tenge CN(12)(15), Were PA(12)(16), Kuremu RT(12)(15), Wekesa WN(12)(15), Masalu 
+N(17), Kawira E(12)(18), Kinyera T(11)(12), Otim I(11)(12), Legason ID(12)(13), 
+Nabalende H(11)(12), Dhudha H(12)(18), Ayers LW(19), Bhatia K(1), Goedert JJ(1), 
+Cole N(20), Luo W(20), Liu J(20), Manning M(20), Hicks B(20), Prokunina-Olsson 
+L(1), Chagaluka G(21), Johnston WT(22), Mutalima N(22)(23), Borgstein E(21), 
+Liomba GN(21), Kamiza S(21), Mkandawire N(21), Mitambo C(24), Molyneux EM(21), 
+Newton R(22), Hsing AW(25), Mensah JE(26), Adjei AA(26), Hutchinson A(20), 
+Carrington M(27)(28), Yeager M(20), Blasczyk R(9), Chanock SJ(1), Raychaudhuri 
+S(3)(4)(5)(6)(7), Mbulaiteye SM(29).
+
+Author information:
+(1)Division of Cancer Epidemiology and Genetics, National Cancer Institute, 
+Rockville, MD, USA.
+(2)Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, 
+Rheumatology and Musculoskeletal Sciences, University of Oxford, Oxford, UK.
+(3)Center for Data Sciences, Brigham and Women's Hospital, Harvard Medical 
+School, Boston, MA, USA.
+(4)Division of Rheumatology, Immunology, and Immunity, Brigham and Women's 
+Hospital, Harvard Medical School, Boston, MA, USA.
+(5)Division of Genetics, Brigham and Women's Hospital, Harvard Medical School, 
+Boston, MA, USA.
+(6)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
+USA.
+(7)Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+(8)College of Health Sciences, Makerere University, Kampala, Uganda.
+(9)Institute of Transfusion Medicine and Transplant Engineering, Hanover, 
+Germany.
+(10)Center for Research on Genomics & Global Health, NHGRI, National Institutes 
+of Health, Bethesda, MD, USA.
+(11)St. Mary's Hospital, Lacor, Gulu, Uganda.
+(12)EMBLEM Study, African Field Epidemiology Network, Kampala, Uganda.
+(13)Kuluva Hospital, Arua, Uganda.
+(14)Division of Intramural Research, National Institute of Allergy and 
+Infectious Diseases, National Institutes of Health, Bethesda, MD, USA.
+(15)Moi University College of Health Sciences, Eldoret, Kenya.
+(16)Academic Model Providing Access To Healthcare (AMPATH), Eldoret, Kenya.
+(17)Bugando Medical Center, Mwanza, Tanzania.
+(18)Shirati Health, Education, and Development Foundation, Shirati, Tanzania.
+(19)Department of Pathology, The Ohio State University, Columbus, OH, USA.
+(20)Cancer Genomics Research Laboratory, Frederick National Laboratory for 
+Cancer Research, Frederick, MD, USA.
+(21)Departments of Pediatrics and Surgery, Kamuzu University of Health Sciences 
+(formerly College of Medicine), University of Malawi, Blantyre, Malawi.
+(22)Epidemiology and Cancer Statistics Group, Department of Health Sciences, 
+University of York, York, UK.
+(23)Cancer Epidemiology Unit, University of Oxford, Oxford, UK.
+(24)National Health Sciences Research Committee, Research Department, Ministry 
+of Health, Lilongwe, Malawi.
+(25)Stanford Cancer Institute, Stanford University, Stanford, CA, USA.
+(26)University of Ghana Medical School, Accra, Ghana.
+(27)Basic Science Program, Frederick National Laboratory for Cancer Research, 
+National Cancer Institute, Frederick, MD, USA and Laboratory of Integrative 
+Cancer Immunology, Center for Cancer Research, National Cancer Institute, 
+Bethesda, MD, USA.
+(28)Ragon Institute of MGH, MIT and Harvard, Cambridge, MA, USA.
+(29)Division of Cancer Epidemiology and Genetics, National Cancer Institute, 
+Rockville, MD, USA. mbulaits@mail.nih.gov.
+(#)Contributed equally
+
+Burkitt lymphoma (BL) is responsible for many childhood cancers in sub-Saharan 
+Africa, where it is linked to recurrent or chronic infection by Epstein-Barr 
+virus or Plasmodium falciparum. However, whether human leukocyte antigen (HLA) 
+polymorphisms, which regulate immune response, are associated with BL has not 
+been well investigated, which limits our understanding of BL etiology. Here we 
+investigate this association among 4,645 children aged 0-15 years, 800 with BL, 
+enrolled in Uganda, Tanzania, Kenya, and Malawi. HLA alleles are imputed with 
+accuracy >90% for HLA class I and 85-89% for class II alleles. BL risk is 
+elevated with HLA-DQA1*04:01 (adjusted odds ratio [OR] = 1.61, 95% confidence 
+interval [CI] = 1.32-1.97, P = 3.71 × 10-6), with rs2040406(G) in HLA-DQA1 
+region (OR = 1.43, 95% CI = 1.26-1.63, P = 4.62 × 10-8), and with amino acid Gln 
+at position 53 versus other variants in HLA-DQA1 (OR = 1.36, P = 2.06 × 10-6). 
+The associations with HLA-DQA1*04:01 (OR = 1.29, P = 0.03) and rs2040406(G) 
+(OR = 1.68, P = 0.019) persist in mutually adjusted models. The higher risk 
+rs2040406(G) variant for BL is associated with decreased HLA-DQB1 expression in 
+eQTLs in EBV transformed lymphocytes. Our results support the role of HLA 
+variation in the etiology of BL and suggest that a promising area of research 
+might be understanding the link between HLA variation and EBV control.
+
+© 2024. This is a U.S. Government work and not under copyright protection in the 
+US; foreign copyright protection may apply.
+
+DOI: 10.1038/s42003-023-05701-5
+PMCID: PMC10770398
+PMID: 38182727 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.
+
+
+3. Mult Scler Relat Disord. 2023 Dec 14;82:105373. doi: 
 10.1016/j.msard.2023.105373. Online ahead of print.
 
 Gene expression in multiple sclerosis during pregnancy based on integrated 
@@ -69,7 +232,7 @@ relationships that could have appeared to influence the work reported in this
 paper.
 
 
-2. Biomedicines. 2023 Dec 11;11(12):3273. doi: 10.3390/biomedicines11123273.
+4. Biomedicines. 2023 Dec 11;11(12):3273. doi: 10.3390/biomedicines11123273.
 
 Genetic Susceptibility of HLA Alleles to Non-Steroidal Anti-Inflammatory Drug 
 Hypersensitivity in the Taiwanese Population.
@@ -138,7 +301,7 @@ design of the study; in the collection, analyses, or interpretation of data; in
 the writing of the manuscript; or in the decision to publish the results.
 
 
-3. JCI Insight. 2023 Dec 8;8(23):e171417. doi: 10.1172/jci.insight.171417.
+5. JCI Insight. 2023 Dec 8;8(23):e171417. doi: 10.1172/jci.insight.171417.
 
 Single-cell transcriptomics reveals variations in monocytes and Tregs between 
 gout flare and remission.
@@ -175,376 +338,3 @@ gout attacks and progression.
 
 DOI: 10.1172/jci.insight.171417
 PMID: 38063198 [Indexed for MEDLINE]
-
-
-4. Arthritis Rheumatol. 2023 Dec 7. doi: 10.1002/art.42768. Online ahead of
-print.
-
-Clinical features and immunogenetic risk factors associated with additional 
-autoantibodies in anti-transcriptional intermediary factor 1γ juvenile-onset 
-dermatomyositis.
-
-Sherman MA(1), Yang Q(2), Gutierrez-Alamillo L(2), Pak K(1), Flegel WA(3), 
-Mammen AL(1)(4)(5), Rider LG(#)(6), Casciola-Rosen LA(#)(2); Childhood Myositis 
-Heterogeneity Collaborative Study Group.
-
-Collaborators: Arabshahi B, Ballinger S, Bingham CA, Bohnsack JF, Carrasco R, 
-Eberhardt BA, Edelheit BS, Farhadi PN, Finkel TH, Fuhlbrigge RC, Goldmuntz EA, 
-Gottlieb BS, Griffin TA, Guirola R, Hannan W, Henrickson M, Hong S, Jones OY, 
-Kingsbury DJ, Kishi T, Lindsley CB, Mamyrova G, McCarthy PL, Miller FW, Nativ S, 
-Oral EA, Pachman LM, de la Pena W, Perez MD, Person DA, Pinal-Fernandez I, 
-Sabbagh SE, Sarkar K, Schiffenbauer A, Schlefman A, Shaham B, Soep J, Sule S, 
-Targoff IN, Vogelgesang SA, Volochayev R, Wahezi D.
-
-Author information:
-(1)Muscle Disease Unit, National Institute of Arthritis and Musculoskeletal and 
-Skin Diseases, National Institutes of Health, Bethesda, Maryland, USA.
-(2)Division of Rheumatology, Johns Hopkins University School of Medicine, 
-Baltimore, Maryland, USA.
-(3)Department of Transfusion Medicine, NIH Clinical Center, National Institutes 
-of Health, Bethesda, Maryland, USA.
-(4)Department of Neurology, Johns Hopkins University School of Medicine, 
-Baltimore, Maryland, USA.
-(5)Department of Medicine, Johns Hopkins University School of Medicine, 
-Baltimore, Maryland, USA.
-(6)Environmental Autoimmunity Group, Clinical Research Branch, National 
-Institute of Environmental Health Sciences, National Institutes of Health, 
-Bethesda, Maryland, USA.
-(#)Contributed equally
-
-OBJECTIVE: Novel autoantibody specificities including anti-CCAR1 were recently 
-discovered in adult patients with anti-TIF1γ-positive dermatomyositis (DM) and 
-were associated with attenuated cancer emergence. The aims of the present study 
-were to examine whether these autoantibodies occur in patients with 
-juvenile-onset dermatomyositis (JDM) and to determine their associated features.
-METHODS: Sera from 150 patients with anti-TIF1γ autoantibody-positive JDM in a 
-cross-sectional cohort and 90 juvenile healthy controls were assayed for 
-anti-CCAR1, anti-C1Z1, anti-IMMT, anti-TBL1XR1, and anti-Sp4 autoantibodies. 
-Demographics, myositis autoantibodies, clinical features, medications, outcomes, 
-and HLA-DRB1 and HLA-DQA1 alleles were compared between those with and without 
-these autoantibodies.
-RESULTS: Any one of the anti-TIF1γ-associated autoantibodies was present in 44 
-(29%) patients overall, including 25 (17%) with anti-Sp4, 22 (15%) with 
-anti-TBL1XR1, 14 (9%) with anti-CCAR1, 2 (1%) with anti-C1Z1, and 2 (1%) with 
-anti-IMMT autoantibodies. These anti-TIF1γ-associated autoantibodies frequently 
-co-occurred. Patients with any of the anti-TIF1γ-associated autoantibodies had 
-less frequent falling (34% [15] vs 53% [56], p=0.032) and lower peak muscle 
-enzymes. None of the patients had cancer. Among White patients, HLA-DRB1*03 was 
-protective against an anti-TIF1γ-associated autoantibody (OR 0.20, 95% CI 
-0.07-0.52).
-CONCLUSION: Autoantibodies associated with anti-TIF1γ were found in isolation 
-and in combination among a subset of patients with JDM. Patients with these 
-autoantibodies had less severe muscle disease and were not enriched for 
-HLA-DRB1*03. Additional autoantibodies among anti-TIF1γ-positive patients with 
-JDM likely contribute to the heterogeneity of the anti-TIF1γ serologic subgroup. 
-This article is protected by copyright. All rights reserved.
-
-This article is protected by copyright. All rights reserved.
-
-DOI: 10.1002/art.42768
-PMID: 38059274
-
-
-5. Nat Genet. 2023 Dec;55(12):2255-2268. doi: 10.1038/s41588-023-01586-6. Epub
-2023  Nov 30.
-
-Mapping the dynamic genetic regulatory architecture of HLA genes at single-cell 
-resolution.
-
-Kang JB(1)(2)(3)(4)(5), Shen AZ(1)(2)(3)(4)(5), Gurajala S(1)(2)(3)(4)(5), 
-Nathan A(1)(2)(3)(4)(5), Rumker L(1)(2)(3)(4)(5), Aguiar VRC(4)(6), Valencia 
-C(1)(2)(3)(4)(5), Lagattuta KA(1)(2)(3)(4)(5), Zhang F(1)(2)(3)(4)(5)(7), 
-Jonsson AH(5), Yazar S(8), Alquicira-Hernandez J(8), Khalili H(9), 
-Ananthakrishnan AN(9), Jagadeesh K(10), Dey K(10)(11)(12); Accelerating 
-Medicines Partnership Program: Rheumatoid Arthritis and Systemic Lupus 
-Erythematosus (AMP RA/SLE) Network; Daly MJ(13)(14)(15)(16), Xavier 
-RJ(17)(18)(19), Donlin LT(20)(21), Anolik JH(22), Powell JE(8), Rao DA(5), 
-Brenner MB(5), Gutierrez-Arcelus M(4)(6), Luo Y(1)(2)(3)(4)(5)(23), Sakaue 
-S(1)(2)(3)(4)(5), Raychaudhuri S(24)(25)(26)(27)(28).
-
-Collaborators: Albrecht J, Apruzzese W, Banda N, Barnas JL, Bathon JM, Ben-Artzi 
-A, Boyce BF, Boyle DL, Bridges SL Jr, Bykerk VP, Campbell D, Carr HL, Ceponis A, 
-Chicoine A, Cordle A, Curtis M, Deane KD, DiCarlo E, Dunn P, Filer A, Firestein 
-GS, Forbess L, Geraldino-Pardilla L, Goodman SM, Gravallese EM, Gregersen PK, 
-Guthridge JM, Holers VM, Horowitz D, Hughes LB, Ishigaki K, Ivashkiv LB, James 
-JA, Keras G, Korsunsky I, Lakhanpal A, Lederer JA, Lewis M, Li ZJ, Li Y, Liao 
-KP, Mandelin AM 2nd, Mantel I, Marks KE, Maybury M, McDavid A, McGeachy MJ, 
-Mears J, Meednu N, Millard N, Moreland LW, Nayar S, Nerviani A, Orange DE, 
-Perlman H, Pitzalis C, Rangel-Moreno J, Raza K, Reshef Y, Ritchlin C, Rivellese 
-F, Robinson WH, Sahbudin I, Singaraju A, Seifert JA, Slowikowski K, Smith MH, 
-Tabechian D, Scheel-Toellner D, Utz PJ, Watts GFM, Wei K, Weinand K, Weisenfeld 
-D, Weisman MH, Wyse A, Xiao Q, Zhu Z.
-
-Author information:
-(1)Center for Data Sciences, Brigham and Women's Hospital, Boston, MA, USA.
-(2)Division of Genetics, Department of Medicine, Brigham and Women's Hospital 
-and Harvard Medical School, Boston, MA, USA.
-(3)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
-USA.
-(4)Program in Medical and Population Genetics, Broad Institute of MIT and 
-Harvard, Cambridge, MA, USA.
-(5)Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, 
-Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA.
-(6)Division of Immunology, Boston Children's Hospital, Harvard Medical School, 
-Boston, MA, USA.
-(7)Division of Rheumatology and the Center for Health Artificial Intelligence, 
-University of Colorado School of Medicine, Aurora, CO, USA.
-(8)Garvan Institute of Medical Research, Sydney, New South Wales, Australia.
-(9)Division of Gastroenterology, Massachusetts General Hospital and Harvard 
-Medical School, Boston, MA, USA.
-(10)Harvard T. H. Chan School of Public Health, Boston, MA, USA.
-(11)Computational and Systems Biology Program, Sloan Kettering Institute, 
-Memorial Sloan Kettering Cancer Center, New York, NY, USA.
-(12)Physiology, Biophysics and Systems Biology Program, Weill Cornell Medicine, 
-New York, NY, USA.
-(13)Psychiatric and Neurodevelopmental Genetics Unit, Massachusetts General 
-Hospital, Boston, MA, USA.
-(14)The Stanley Center for Psychiatric Research, The Broad Institute of MIT and 
-Harvard, Cambridge, MA, USA.
-(15)Institute for Molecular Medicine Finland (FIMM), University of Helsinki, 
-Helsinki, Finland.
-(16)Analytic and Translational Genetics Unit, Department of Medicine, 
-Massachusetts General Hospital, Boston, MA, USA.
-(17)Klarman Cell Observatory, Broad Institute of Harvard and MIT, Cambridge, MA, 
-USA.
-(18)Center for Computational and Integrative Biology, Massachusetts General 
-Hospital and Harvard Medical School, Boston, MA, USA.
-(19)Department of Molecular Biology, Massachusetts General Hospital and Harvard 
-Medical School, Boston, MA, USA.
-(20)Hospital for Special Surgery, New York, NY, USA.
-(21)Weill Cornell Medicine, New York, NY, USA.
-(22)Department of Medicine, University of Rochester Medical Center, Rochester, 
-NY, USA.
-(23)Kennedy Institute of Rheumatology, University of Oxford, Oxford, UK.
-(24)Center for Data Sciences, Brigham and Women's Hospital, Boston, MA, USA. 
-soumya@broadinstitute.org.
-(25)Division of Genetics, Department of Medicine, Brigham and Women's Hospital 
-and Harvard Medical School, Boston, MA, USA. soumya@broadinstitute.org.
-(26)Department of Biomedical Informatics, Harvard Medical School, Boston, MA, 
-USA. soumya@broadinstitute.org.
-(27)Program in Medical and Population Genetics, Broad Institute of MIT and 
-Harvard, Cambridge, MA, USA. soumya@broadinstitute.org.
-(28)Division of Rheumatology, Inflammation, and Immunity, Department of 
-Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, 
-USA. soumya@broadinstitute.org.
-
-Update of
-    medRxiv. 2023 Mar 20;:
-
-The human leukocyte antigen (HLA) locus plays a critical role in complex traits 
-spanning autoimmune and infectious diseases, transplantation and cancer. While 
-coding variation in HLA genes has been extensively documented, regulatory 
-genetic variation modulating HLA expression levels has not been comprehensively 
-investigated. Here we mapped expression quantitative trait loci (eQTLs) for 
-classical HLA genes across 1,073 individuals and 1,131,414 single cells from 
-three tissues. To mitigate technical confounding, we developed scHLApers, a 
-pipeline to accurately quantify single-cell HLA expression using personalized 
-reference genomes. We identified cell-type-specific cis-eQTLs for every 
-classical HLA gene. Modeling eQTLs at single-cell resolution revealed that many 
-eQTL effects are dynamic across cell states even within a cell type. HLA-DQ 
-genes exhibit particularly cell-state-dependent effects within myeloid, B and T 
-cells. For example, a T cell HLA-DQA1 eQTL ( rs3104371 ) is strongest in 
-cytotoxic cells. Dynamic HLA regulation may underlie important interindividual 
-variability in immune responses.
-
-© 2023. The Author(s), under exclusive licence to Springer Nature America, Inc.
-
-DOI: 10.1038/s41588-023-01586-6
-PMID: 38036787 [Indexed for MEDLINE]
-
-
-6. Inflamm Bowel Dis. 2023 Nov 29:izad273. doi: 10.1093/ibd/izad273. Online ahead
- of print.
-
-HLA-DQA1*05 Not Associated With Ustekinumab Loss of Response and Antidrug 
-Antibodies in Ulcerative Colitis and Crohn's Disease Patients.
-
-Colombel JF(1), Martín-Arranz MD(2), Brinkman B(3), Guan M(4), Hart A(4), Gasink 
-C(5).
-
-Author information:
-(1)Icahn School of Medicine at Mt Sinai, New York, NY, USA.
-(2)Gastroenterology Department, Hospital Universitario de La Paz, Institute for 
-Health Research La Paz, Universidad Autónoma de Madrid, Madrid, Spain.
-(3)Janssen Pharmaceutica, Beerse, Belgium.
-(4)Janssen Research & Development, LLC, Spring House, PA, USA.
-(5)Janssen Scientific Affairs, LLC, Horsham, PA, USA.
-
-Plain Language Summary: It is unknown if inflammatory bowel disease patients 
-carrying the HLA-DQA1*05 allele have a greater risk of immunogenicity to 
-ustekinumab. We observed that ustekinumab-treated patients carrying the allele 
-did not have increased immunogenicity or reduced efficacy/serum ustekinumab 
-concentrations vs noncarriers.
-
-DOI: 10.1093/ibd/izad273
-PMID: 38029420
-
-
-7. Sci Rep. 2023 Nov 27;13(1):20820. doi: 10.1038/s41598-023-47632-5.
-
-A web-based genome-wide association study reveals the susceptibility loci of 
-common adverse events following COVID-19 vaccination in the Japanese population.
-
-Nogawa S(1), Kanamori H(2)(3), Tokuda K(2)(3), Kawafune K(1), Chijiiwa M(1), 
-Saito K(1), Takahashi S(4).
-
-Author information:
-(1)Genequest Inc., Siba 5-29-11, Minato-ku, Tokyo, 108-0014, Japan.
-(2)Department of Infectious Diseases, Internal Medicine, Tohoku University 
-Graduate School of Medicine, 2-1 Seiryo-machi, Aoba-ku, Sendai, 980-8574, Japan.
-(3)Division of Infection Control, Tohoku University Hospital, 1-1 Seiryo-machi, 
-Aoba-ku, Sendai, 980-8574, Japan.
-(4)Genequest Inc., Siba 5-29-11, Minato-ku, Tokyo, 108-0014, Japan. 
-takahashi@genequest.jp.
-
-The coronavirus disease 2019 (COVID-19) pandemic has spread rapidly worldwide. 
-To prevent its spread, mRNA-based vaccines made by Pfizer/BioNTech (BNT162b1) 
-and Moderna (mRNA-1273) have been widely used, including in Japan. Various 
-adverse events have been reported following the COVID-19 mRNA vaccination, with 
-differences observed among individuals. However, analyses of the genetic 
-background associated with the susceptibility to side effects have been limited. 
-In the present study, we performed genome-wide association studies (GWAS) for 
-self-reported adverse events of the COVID-19 mRNA vaccination in 4545 Japanese 
-individuals and identified 14 associated loci. Among these, 6p21 was associated 
-with 37.5 °C or higher fever, 38 °C or higher fever, and muscle pain. HLA allele 
-association analysis revealed that various HLA alleles were associated with the 
-adverse effects; HLA-DQA1*03:01 and HLA-A*11:01 were more reliably associated 
-with the adverse effects. Our results may enable the preparation and management 
-of adverse effects by identifying the susceptibility to these adverse events. 
-Furthermore, we obtained valuable data that may lead to a better understanding 
-of the mechanisms of action of the COVID-19 mRNA vaccines.
-
-© 2023. The Author(s).
-
-DOI: 10.1038/s41598-023-47632-5
-PMCID: PMC10682012
-PMID: 38012279 [Indexed for MEDLINE]
-
-Conflict of interest statement: S.N., K.K., and M.C. are employees of Genequest 
-Inc.; K.S. and S.T. are board members of Genequest Inc.; H.K. and K.T. declare 
-no competing interests.
-
-
-8. BMC Cancer. 2023 Nov 24;23(1):1141. doi: 10.1186/s12885-023-11579-7.
-
-Molecular subtyping based on immune cell marker genes predicts prognosis and 
-therapeutic response in patients with lung adenocarcinoma.
-
-Liu ZT(#)(1), Shen JT(#)(1), Lei YJ(#)(1), Huang YC(1), Zhao GQ(1), Zheng CH(2), 
-Wang X(1), Wang YT(1), Chen L(3), Li ZX(1), Li SZ(1), Liao J(1), Yu TD(4).
-
-Author information:
-(1)Department of Thoracic Surgery, The Third Affiliated Hospital of Kunming 
-Medical University, Kunming, China.
-(2)Department of Ultrasound, The Third Affiliated Hospital of Kunming Medical 
-University, Yunnan Cancer Hospital, Kunming, China.
-(3)Department of PET/CT Center, Cancer Center of Yunnan Province, The Third 
-Affiliated Hospital of Kunming Medical University, Yunnan Cancer Hospital, 
-Kunming, China.
-(4)Department of Thoracic Surgery, The Third Affiliated Hospital of Kunming 
-Medical University, Kunming, China. yutingdong@outlook.com.
-(#)Contributed equally
-
-OBJECTIVE: Lung adenocarcinoma (LA) is one of the most common malignancies and 
-is responsible for the greatest number of tumor-related deaths. Our research 
-aimed to explore the molecular subtype signatures of LA to clarify the 
-correlation among the immune microenvironment, clinical outcomes, and 
-therapeutic response.
-METHODS: The LA immune cell marker genes (LICMGs) identified by single-cell RNA 
-sequencing (scRNA-seq) analysis were used to discriminate the molecular subtypes 
-and homologous immune and metabolic traits of GSE72094 LA cases. In addition, 
-the model-building genes were identified from 1441 LICMGs by Cox-regression 
-analysis, and a LA immune difference score (LIDscore) was developed to quantify 
-individual differences in each patient, thereby predicting prognosis and 
-susceptibility to immunotherapy and chemotherapy of LA patients.
-RESULTS: Patients of the GSE72094 cohort were divided into two distinct 
-molecular subtypes based on LICMGs: immune activating subtype (Cluster-C1) and 
-metabolically activating subtype (cluster-C2). The two molecular subtypes have 
-distinct characteristics regarding prognosis, clinicopathology, genomics, immune 
-microenvironment, and response to immunotherapy. Among the LICMGs, LGR4, GOLM1, 
-CYP24A1, SFTPB, COL1A1, HLA-DQA1, MS4A7, PPARG, and IL7R were enrolled to 
-construct a LIDscore model. Low-LIDscore patients had a higher survival rate due 
-to abundant immune cell infiltration, activated immunity, and lower genetic 
-variation, but probably the higher levels of Treg cells in the immune 
-microenvironment lead to immune cell dysfunction and promote tumor immune 
-escape, thus decreasing the responsiveness to immunotherapy compared with that 
-of the high-LIDscore patients. Overall, high-LIDscore patients had a higher 
-responsiveness to immunotherapy and a higher sensitivity to chemotherapy than 
-the low-LIDscore group.
-CONCLUSIONS: Molecular subtypes based on LICMGs provided a promising strategy 
-for predicting patient prognosis, biological characteristics, and immune 
-microenvironment features. In addition, they helped identify the patients most 
-likely to benefit from immunotherapy and chemotherapy.
-
-© 2023. The Author(s).
-
-DOI: 10.1186/s12885-023-11579-7
-PMCID: PMC10668343
-PMID: 38001428 [Indexed for MEDLINE]
-
-Conflict of interest statement: The authors declare that they have no competing 
-interests.
-
-
-9. Immunogenetics. 2023 Nov 18. doi: 10.1007/s00251-023-01325-5. Online ahead of 
-print.
-
-Investigating associations between HLA DQA1 ~ DQB1 haplotypes, H. pylori 
-infection, metaplasia, and anti-CagA IgA seropositivity in a Turkish gastritis 
-cohort.
-
-Colakogullari M(1), Karatas L(2), Tatar Z(2).
-
-Author information:
-(1)Izmir Democracy University, Izmir, Turkey. 
-mukaddes.colakogullari@yahoo.co.uk.
-(2)Izmir Democracy University, Izmir, Turkey.
-
-Helicobacter pylori was reported as an important cause of gastritis, and gastric 
-ulcers and CagA oncoprotein-producing H. pylori subgroups were blamed to 
-increase the severity of gastritis. Disparities were reported in that the 
-presence of serum anti-CagA IgA was not parallel with CagA-positive H. pylori 
-cohabitation. We hypothesized that the HLA-DQA1 ~ DQB1 haplotypes in human 
-populations include protective haplotypes that more effectively present 
-immunogenic CagA peptides and susceptible haplotypes with an impaired capacity 
-to present CagA peptides. We recruited patients (n = 201) admitted for 
-gastroendoscopy procedures and performed high-resolution HLA-DQA1 and DQB1 
-typing. Serum anti-CagA IgA levels were analyzed by ELISA (23.0% positive), and 
-H. pylori was classified as positive or negative in gastric mucosal tissue 
-slides (72.6% positive). The HLA DQA1*05:05 allele (29.1%) and HLA DQB1*03:01 
-allele (32.8%) were found at the highest frequency among gastritis patients of 
-Turkish descent. In HLA DQA1*05:05 ~ DQB1*03:01 double homozygous (7.3%) and 
-heterozygous (40.7%) haplotype carriers, the presence of anti-CagA IgA decreased 
-dramatically, the presence of H. pylori increased, and the presence of 
-metaplasia followed a decreasing trend. The DQ protein encoded by HLA 
-DQA1*05:05-DQ*03:01 showed a low binding affinity to the CagA peptide when 
-binding capacity was analyzed by the NetMHCIIPan 4.0 prediction method. In 
-conclusion, HLA DQA1 ~ DQB1 polymorphisms are crucial as host defense mechanisms 
-against CagA H. pylori since antigen binding capacity plays a crucial role in 
-anti-CagA IgA production.
-
-© 2023. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
-part of Springer Nature.
-
-DOI: 10.1007/s00251-023-01325-5
-PMID: 37979046
-
-
-10. HLA. 2023 Nov 16. doi: 10.1111/tan.15291. Online ahead of print.
-
-Identification of the novel HLA-DQA1*01:138 allele by next-generation 
-sequencing.
-
-Lee JK(1), Bae GE(1), Lee S(1), Park JW(1), Kang ES(1).
-
-Author information:
-(1)Department of Laboratory Medicine and Genetics, Samsung Medical Center, 
-Sungkyunkwan University School of Medicine, Seoul, South Korea.
-
-HLA-DQA1*01:138 is identical to HLA-DQA1*01:03 except for a single nucleotide 
-substitution in exon 3.
-
-© 2023 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
-
-DOI: 10.1111/tan.15291
-PMID: 37971080
