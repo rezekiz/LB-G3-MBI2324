@@ -1,0 +1,256 @@
+LOCUS       NP_064440                255 aa            linear   PRI 25-DEC-2022
+DEFINITION  HLA class II histocompatibility antigen, DQ alpha 2 chain precursor
+            [Homo sapiens].
+ACCESSION   NP_064440 XP_005249107 XP_005272863 XP_005274911 XP_005275167
+            XP_005275442 XP_005275602
+VERSION     NP_064440.1
+DBSOURCE    REFSEQ: accession NM_020056.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 255)
+  AUTHORS   Luck K, Kim DK, Lambourne L, Spirohn K, Begg BE, Bian W, Brignall
+            R, Cafarelli T, Campos-Laborie FJ, Charloteaux B, Choi D, Cote AG,
+            Daley M, Deimling S, Desbuleux A, Dricot A, Gebbia M, Hardy MF,
+            Kishore N, Knapp JJ, Kovacs IA, Lemmens I, Mee MW, Mellor JC,
+            Pollis C, Pons C, Richardson AD, Schlabach S, Teeking B, Yadav A,
+            Babor M, Balcha D, Basha O, Bowman-Colin C, Chin SF, Choi SG,
+            Colabella C, Coppin G, D'Amata C, De Ridder D, De Rouck S,
+            Duran-Frigola M, Ennajdaoui H, Goebels F, Goehring L, Gopal A,
+            Haddad G, Hatchi E, Helmy M, Jacob Y, Kassa Y, Landini S, Li R, van
+            Lieshout N, MacWilliams A, Markey D, Paulson JN, Rangarajan S,
+            Rasla J, Rayhan A, Rolland T, San-Miguel A, Shen Y, Sheykhkarimli
+            D, Sheynkman GM, Simonovsky E, Tasan M, Tejeda A, Tropepe V,
+            Twizere JC, Wang Y, Weatheritt RJ, Weile J, Xia Y, Yang X,
+            Yeger-Lotem E, Zhong Q, Aloy P, Bader GD, De Las Rivas J, Gaudet S,
+            Hao T, Rak J, Tavernier J, Hill DE, Vidal M, Roth FP and Calderwood
+            MA.
+  TITLE     A reference map of the human binary protein interactome
+  JOURNAL   Nature 580 (7803), 402-408 (2020)
+   PUBMED   32296183
+REFERENCE   2  (residues 1 to 255)
+  AUTHORS   Liang SQ, Deng JM, Wei X, Chen ZR, Yang ML, Qin HJ, Zhang JQ and He
+            ZY.
+  TITLE     Association of GWAS-supported noncoding area loci rs404860,
+            rs3117098, and rs7775228 with asthma in Chinese Zhuang population
+  JOURNAL   J Clin Lab Anal 34 (2), e23066 (2020)
+   PUBMED   31605414
+  REMARK    GeneRIF: Association of GWAS-supported noncoding area loci
+            rs404860, rs3117098, and rs7775228 with asthma in Chinese Zhuang
+            population.
+REFERENCE   3  (residues 1 to 255)
+  AUTHORS   Armstrong DL, Zidovetzki R, Alarcon-Riquelme ME, Tsao BP, Criswell
+            LA, Kimberly RP, Harley JB, Sivils KL, Vyse TJ, Gaffney PM,
+            Langefeld CD and Jacob CO.
+  TITLE     GWAS identifies novel SLE susceptibility genes and explains the
+            association of the HLA region
+  JOURNAL   Genes Immun 15 (6), 347-354 (2014)
+   PUBMED   24871463
+REFERENCE   4  (residues 1 to 255)
+  AUTHORS   Chang SW, Fann CS, Su WH, Wang YC, Weng CC, Yu CJ, Hsu CL, Hsieh
+            AR, Chien RN, Chu CM and Tai DI.
+  TITLE     A genome-wide association study on chronic HBV infection and its
+            clinical progression in male Han-Taiwanese
+  JOURNAL   PLoS One 9 (6), e99724 (2014)
+   PUBMED   24940741
+  REMARK    Publication Status: Online-Only
+REFERENCE   5  (residues 1 to 255)
+  AUTHORS   Jiang L, Yin J, Ye L, Yang J, Hemani G, Liu AJ, Zou H, He D, Sun L,
+            Zeng X, Li Z, Zheng Y, Lin Y, Liu Y, Fang Y, Xu J, Li Y, Dai S,
+            Guan J, Jiang L, Wei Q, Wang Y, Li Y, Huang C, Zuo X, Liu Y, Wu X,
+            Zhang L, Zhou L, Zhang Q, Li T, Chen L, Xu Z, Yang X, Qian F, Xie
+            W, Liu W, Guo Q, Huang S, Zhao J, Li M, Jin Y, Gao J, Lv Y, Wang Y,
+            Lin L, Guo A, Danoy P, Willner D, Cremin C, Hadler J, Zhang F, Zhao
+            Y, Li M, Yue T, Fan X, Guo J, Mu R, Li J, Wu C, Zeng M, Wang J, Li
+            S, Jin L, Wang B, Wang J, Ma X, Sun L, Zhang X, Brown MA, Visscher
+            PM, Su DF and Xu H.
+  TITLE     Novel risk loci for rheumatoid arthritis in Han Chinese and
+            congruence with risk variants in Europeans
+  JOURNAL   Arthritis Rheumatol 66 (5), 1121-1132 (2014)
+   PUBMED   24782177
+  REMARK    Erratum:[Arthritis Rheumatol. 2014 Jul;66(7):1881]
+REFERENCE   6  (residues 1 to 255)
+  AUTHORS   Marsh SG and Bodmer JG.
+  TITLE     HLA class II nucleotide sequences, 1992
+  JOURNAL   Tissue Antigens 40 (5), 229-243 (1992)
+   PUBMED   1362295
+  REMARK    Correction to:[Tissue Antigens. 1992 Apr;39(4):161-73. PMID:
+            1529427]
+REFERENCE   7  (residues 1 to 255)
+  AUTHORS   Wang Y, Lu P, Zhou K, Clay T, Wood N, Bradley B and Bidwell J.
+  TITLE     Nucleotide sequencing of HLA-DQ gene second exons in Chinese
+            homozygous cells
+  JOURNAL   Eur J Immunogenet 19 (5), 287-293 (1992)
+   PUBMED   1420115
+REFERENCE   8  (residues 1 to 255)
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M and Bontrop
+            RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles
+  JOURNAL   Immunogenetics 36 (2), 71-78 (1992)
+   PUBMED   1612647
+REFERENCE   9  (residues 1 to 255)
+  AUTHORS   Gyllensten UB and Erlich HA.
+  TITLE     Ancient roots for polymorphism at the HLA-DQ alpha locus in
+            primates
+  JOURNAL   Proc Natl Acad Sci U S A 86 (24), 9986-9990 (1989)
+   PUBMED   2513578
+REFERENCE   10 (residues 1 to 255)
+  AUTHORS   Jonsson,A.K., Hyldig-Nielsen,J.J., Servenius,B., Larhammar,D.,
+            Andersson,G., Jorgensen,F., Peterson,P.A. and Rask,L.
+  TITLE     Class II genes of the human major histocompatibility complex.
+            Comparisons of the DQ and DX alpha and beta genes
+  JOURNAL   J Biol Chem 262 (18), 8767-8777 (1987)
+   PUBMED   3036828
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AL672104.4.
+            
+            On or before Aug 31, 2013 this sequence version replaced
+            XP_005275167.1, XP_005275442.1, XP_005275602.1, XP_005249107.1,
+            XP_005272863.1, XP_005274911.1.
+            
+            Summary: This gene belongs to the HLA class II alpha chain family.
+            The encoded protein forms a heterodimer with a class II beta chain.
+            It is located in intracellular vesicles and plays a central role in
+            the peptide loading of MHC class II molecules by helping to release
+            the CLIP molecule from the peptide binding site. Class II molecules
+            are expressed in antigen presenting cells (B lymphocytes, dendritic
+            cells, macrophages) and are used to present antigenic peptides on
+            the cell surface to be recognized by CD4 T-cells. [provided by
+            RefSeq, Jun 2010].
+            
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SAMEA2144335,
+                              SAMEA2145893 [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000374940.4/ ENSP00000364076.3
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+                     /map="6p21.32"
+     Protein         1..255
+                     /product="HLA class II histocompatibility antigen, DQ
+                     alpha 2 chain precursor"
+                     /note="HLA class II histocompatibility antigen, DQ alpha 2
+                     chain; MHC class II DQA2; DX alpha chain; HLA class II
+                     histocompatibility antigen, DQ(6) alpha chain; MHC class
+                     II antigen; MHC class II DQA1; HLA class II
+                     histocompatibility antigen, DQ alpha 1 chain; DC-1 alpha
+                     chain; MHC class I antigen"
+                     /calculated_mol_wt=25793
+     sig_peptide     1..23
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+                     /calculated_mol_wt=2258
+     mat_peptide     24..255
+                     /product="HLA class II histocompatibility antigen, DQ
+                     alpha 2 chain"
+                     /calculated_mol_wt=25793
+     Region          24..110
+                     /region_name="Alpha-1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01906.2)"
+     Region          29..109
+                     /region_name="MHC_II_alpha"
+                     /note="Class II histocompatibility antigen, alpha domain;
+                     pfam00993"
+                     /db_xref="CDD:425978"
+     Site            104
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P01906.2)"
+     Region          111..205
+                     /region_name="IgC1_MHC_II_alpha_HLA-DQ"
+                     /note="Class II major histocompatibility complex (MHC)
+                     alpha chain immunoglobulin domain of histocompatibility
+                     antigen (HLA) DQ and related proteins; member of the
+                     C1-set of Ig superfamily (IgSF) domains; cd21008"
+                     /db_xref="CDD:409599"
+     Region          111..204
+                     /region_name="Alpha-2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01906.2)"
+     Region          112..120
+                     /region_name="Ig strand A"
+                     /note="Ig strand A [structural motif]"
+                     /db_xref="CDD:409599"
+     Site            order(116,118..120,122,174,176)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:409599"
+     Region          128..137
+                     /region_name="Ig strand B"
+                     /note="Ig strand B [structural motif]"
+                     /db_xref="CDD:409599"
+     Site            order(140..142,161..164,170..171,176)
+                     /site_type="other"
+                     /note="MHC binding domain interface [polypeptide binding]"
+                     /db_xref="CDD:409599"
+     Region          143..149
+                     /region_name="Ig strand C"
+                     /note="Ig strand C [structural motif]"
+                     /db_xref="CDD:409599"
+     Site            144
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P01906.2)"
+     Region          151..154
+                     /region_name="Ig strand C'"
+                     /note="Ig strand C' [structural motif]"
+                     /db_xref="CDD:409599"
+     Region          158..166
+                     /region_name="Ig strand D"
+                     /note="Ig strand D [structural motif]"
+                     /db_xref="CDD:409599"
+     Region          169..179
+                     /region_name="Ig strand E"
+                     /note="Ig strand E [structural motif]"
+                     /db_xref="CDD:409599"
+     Region          186..193
+                     /region_name="Ig strand F"
+                     /note="Ig strand F [structural motif]"
+                     /db_xref="CDD:409599"
+     Region          199..204
+                     /region_name="Ig strand G"
+                     /note="Ig strand G [structural motif]"
+                     /db_xref="CDD:409599"
+     Region          205..217
+                     /region_name="Connecting peptide"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01906.2)"
+     Site            218..240
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01906.2)"
+     CDS             1..255
+                     /gene="HLA-DQA2"
+                     /gene_synonym="DC-alpha; DQA1; DX-ALPHA; HLA-DCA; HLA-DXA;
+                     HLADQA2"
+                     /coded_by="NM_020056.5:54..821"
+                     /db_xref="CCDS:CCDS4753.1"
+                     /db_xref="GeneID:3118"
+                     /db_xref="HGNC:HGNC:4943"
+                     /db_xref="MIM:613503"
+ORIGIN      
+        1 milnkalllg alaltavmsp cggedivadh vasygvnfyq shgpsgqyth efdgdeefyv
+       61 dletketvwq lpmfskfisf dpqsalrnma vgkhtlefmm rqsnstaatn evpevtvfsk
+      121 fpvtlgqpnt liclvdnifp pvvnitwlsn ghsvtegvse tsflsksdhs ffkisyltfl
+      181 psadeiydck vehwgldepl lkhwepeipa pmseltetlv calglsvglm givvgtvfii
+      241 qglrsvgasr hqgll
+//
+
