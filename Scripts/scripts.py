@@ -4,6 +4,9 @@
 
 def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract', retmode = 'text', display = 'Y' , save = 'N', ext='txt'):
     '''
+
+    Desenvolvido por Rui Sousa
+
     NOTA - PARA USAR RETMODE XML TÊM DE SER DECLARADA UMA NOVA VARIÁVEL POIS A FUNÇÃO AINDA NÃO CRIA FICHEIROS XML
     
     Função para a pesquisa de bibliografia na base de dados NCBI utilizando BioPython
@@ -55,8 +58,6 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     
     '''
     # TODO criar ficheiros XML
-    
-
 
     # Importação de módulos
     from Bio import Entrez
@@ -70,6 +71,8 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     handle = Entrez.egquery(term=term)
     egq_res = Entrez.read(handle)
 
+    if rettype == 'fasta' or rettype == 'gb': retmax = 1
+
     for _ in egq_res['eGQueryResult']:
         if db in _.values():
             if retmax > 1:
@@ -77,27 +80,15 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
             else:
                 print('Encontrados {} resultados em {}. Irá ser processado 1 resultado.\n'.format(_['Count'],db))
 
-    
-    if rettype == 'fasta' or rettype == 'gb': retmax = 1
-
     # Sacar as IDs
     handle      = Entrez.esearch(db=db,term=term, retmode=retmode, retmax=retmax)
     esearch_res = Entrez.read(handle)
 
     lista_ids = esearch_res['IdList']
-    # print('Top 10 artigos ->',lista_ids) # Converter para uma lista de títulos mais à frente'''
     
-    
-
     # Transfere a informação
     handle = Entrez.efetch(db=db,id=','.join(lista_ids),rettype=rettype,retmode=retmode)
     fetch_res = handle.read()
-    
-    # Usar com print para já, para não estar a bagunçar demasiado.
-    # Perceber como se pode implementar a escrita de ficheiros para ser mais fácil de mastigar os resultados.
-
-    # NÃO FUNCIONA NO GITHUB / LIVECODING
-    # ADICIONAR PARAMETRO save = 'Y' SE SE PRETENDER GUARDAR FICHEIRO 
     
     if display.upper() == 'Y':
         print(fetch_res,sep='\n')
@@ -110,50 +101,115 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
     if save.upper() == 'Y':  
 
         # Definimos a extensão em função da base de dados e retmode
-        if rettype == 'gb':
-            ext = '.gbk'
         
-        elif rettype == 'fasta':
-            ext = '.fasta'
-        
-        elif retmode == 'xml':
-            ext = '.xml'
 
-        else: ext = '.txt'
-
-        filename = term+ext
-
-        # Verifica se existe pasta para output e cria-a caso não exista
-        '''cwd = os.getcwd()
-        outputdir = os.path.join(cwd,'output')
-        if not os.path.exists(outputdir):
-            os.mkdir(outputdir)
-
-
-        # Muda o working directory para a pasta de output para gerar o ficheiro
-        os.chdir(outputdir)'''
+        filename = term + type_handler(rettype,retmode)
 
         if os.path.isfile(filename): 
             print('Ficheiro já existe. Não será criado novo ficheiro.')
             return fetch_res
 
-
-
         # Gera o ficheiro           
-        with open(term+ext , 'w', encoding='utf-8') as _:
-            _.write(fetch_res)
-
-        '''# Retorna ao working directory anterior
-        os.chdir(cwd)'''
-
-        print('Ficheiro gravado.')
+        guardar_ficheiro(filename, fetch_res)
 
 
     handle.close()
 
-    print('Concluído.')
-
     return fetch_res
+
+
+# SUBFUNÇÕES
+
+def guardar_ficheiro(ficheiro, content):
+
+    '''
+    Função que recebe um nome de ficheiro (ficheiro) e carrega o conteúdo 
+    da variável content para esse ficheiro.
+    '''    
+    with open(ficheiro, 'w', encoding = 'utf-8') as _:
+        _.write(content)
+
+    print(f'{ficheiro} guardado com sucesso.')
+
+def type_handler(rettype,retmode):
+
+    '''
+    Função auxiliar da função pesquisa NCBI que permite
+    controlar o tipo de ficheiro de output da função
+    '''
+
+    if rettype == 'gb':
+        ext = '.gbk'
+        
+    elif rettype == 'fasta':
+        ext = '.fasta'
+        
+    elif retmode == 'xml':
+        ext = '.xml'
+
+    else: ext = '.txt'
+
+    return ext
+
+# PESQUISA KEGG
+
+def get_kegg(organismo,idgene,displ = 1):
+    '''
+    Desenvolvido por Rui Sousa
+
+    Função que pesquisa na base de dados KEGG.
+
+    Na primeira versão vai ser preciso introduzir o ID do gene (consultar a base de dados gene, a função 
+    pesquisa_ncbi pode ajudar aqui)
+
+    Referencial de IDs, etc: https://www.kegg.jp/kegg/rest/keggapi.html
+    
+    Numa segunda versão será implementada uma pesquisa com prompt com termo de pesquisa e confirmação se 
+    é o gene pretendido para depois transferir o ficheiro relativo ao gene
+
+    Parametros
+    ----------
+
+    organismo : str
+        identificador do organismo de acordo com o referencial de IDs da API KEGG
+
+    idgene : str
+        identificador do gene de acordo com a base de dados GENE da NCBI
+
+    displ : int
+        trigger para visualização de informação (ligado por defeito)
+
+    Devolve
+    -------
+
+    Ficheiro de texto captado na página do KEGG referente ao gene em questão.
+
+    '''
+    import os
+    from Bio.KEGG import REST
+
+    if displ != 1 or 0:
+        raise ValueError('Display tem de ser 1 ou 0.')
+
+    request = REST.kegg_get(organismo+':'+idgene)
+
+    ficheiro = organismo+idgene+'.kegg'
+
+    if not os.path.isfile(ficheiro):
+        with open(ficheiro,'w',encoding='utf-8') as _:
+            _.write(request.read())
+    
+    if displ == 1:
+        read(ficheiro)
+    
+    return request.read()
+
+def read(ficheiro):
+    handle = open(ficheiro)
+    for line in handle:
+        print(line)
+    handle.close()
+
 
 #################################
 # Secção de análise de features #
@@ -211,7 +267,12 @@ def features_qualifiers(nome_ficheiro):
 # Secção de Análise Proteína #
 ##############################
 
-# Carrega a sequência de AA
+'''
+(DEPRECATED)
+Funções desenvolvidas por Rui Sousa.
+
+Conjunto de funções para processamento básico de sequências proteicas (contagem de aminoácidos, analisar dados da base de dados swiss prot).
+'''
 def carregar_sequencia(filename):
     from Bio import SeqIO
 
@@ -224,8 +285,6 @@ def carregar_sequencia(filename):
     
     except FileNotFoundError:
         print('Ficheiro FASTA não existe. Apresentar um ficheiro FASTA válido.')
-
-# Contagem de AA
 
 def conta_aa(fastafile):
     # TODO colocar um dicionário bonitinho
@@ -251,11 +310,19 @@ def swiss_prot_scan(swiss_id):
         f'Organismo: {sr.annotations["organism"]}',
         f'Keywords: {sr.annotations["keywords"]}',
         sep = '\n')
+
+
     
 #############################################
 # Secção de Análise de Homologias por BLAST #
 #############################################
 
+'''
+(DEPRECATED)
+Funções desenvolvidas por Rui Sousa
+
+Conjunto de funções para instanciação de blast remoto via package BioPython.
+'''
 # Parsing de Blast Records 
 
 def blast_parse(filename, lim = None, ethreshold = 0.05):
@@ -356,6 +423,9 @@ def analise_blast(email, fastafile, xmlfile, lim = None, ethreshold = 0.05):
         print(f'Ficheiro {xmlfile} gravado. Para realizar um blast parse ir buscar o ficheiro à pasta output')
         
         handle.close()
+
+
+# Funções desenvolvidas por Carlos Gomes, usadas ao longo do trabalho
 
 def blast_remoto(arquivo_entrada, formato = 'fasta', banco_dados = 'nr', tipo_blast = 'blastp', save = 'N'):
 
@@ -593,3 +663,78 @@ def alinhamentos(blast_record, num_alinhamentos=5):
         for hsp in alignment.hsps:
             print('E-Value: ', hsp.expect)
         print('\n')
+
+##############################
+#  Análise de estruturas 3D  #
+##############################
+
+def PDB_viewer(id,ficheiro):
+
+    '''
+    Desenvolvido por Rui Sousa
+
+    Função que instancia o módulo PDBParser do package BioPython para a visualização 
+    de ficheiros PDB
+
+    Roadmap: Implementar uma função para pesquisa para transferir ficheiros diretamente da base de dados PDB
+    a partir do terminal usando o package rcsbsearchapi
+
+    Parametros
+    ----------
+
+    id : str
+        ID da proteína na base de dados PDB
+
+    ficheiro : str
+        Caminho para o ficheiro PDB
+
+    Funcionalidade
+    --------------
+
+    Gera um modelo 3D interativo da estrutura da proteína
+    '''
+
+
+    from Bio.PDB import PDBParser
+    import nglview as nv
+
+    # Carrega o ficheiro e constroi a estrutura 3D para visualizar
+    pdb_parser = PDBParser()
+    structure = pdb_parser.get_structure(id,ficheiro)
+
+    # Visualiza a estrutura criada usando o nglviewer
+
+    return nv.show_biopython(structure)
+
+
+#######################
+#  Análise de motifs  #
+#######################
+
+def motif_viewer(ficheiro, disp_logo = 1):
+    '''
+    Desenvolvido por Rui Sousa
+
+    Função que recebe como input um ficheiro de resultados MEME em XML e devolve a lista de motifs
+    e os logos dos diferentes motifs.
+
+    Roadmap: Adicionar uma interação com a instanciação do MEME usando Docker
+    '''
+
+    from Bio.motifs import meme
+    from logomaker import Logo
+    import pandas as pd
+
+    with open(ficheiro) as _:
+        record = meme.read(_)
+
+    for motif in record:
+        for instance in motif.instances:
+            print(instance.motif_name, instance.sequence_name, instance.strand, instance.pvalue)
+    
+    if disp_logo == 1:
+
+        for motif in record:
+            mdf = pd.DataFrame(motif.counts)
+            logo = Logo(mdf)
+
