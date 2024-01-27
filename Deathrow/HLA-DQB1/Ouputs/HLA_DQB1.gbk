@@ -1,0 +1,110 @@
+LOCUS       PCBGASA                 1084 bp    DNA     linear   PLN 27-APR-2004
+DEFINITION  Penicillium canescens bgaS gene for beta-galactosidase.
+ACCESSION   X70408
+VERSION     X70408.1
+KEYWORDS    beta-D-galactoside bond cleavage; beta-galactosidase;
+            carbohydrolase.
+SOURCE      Penicillium canescens
+  ORGANISM  Penicillium canescens
+            Eukaryota; Fungi; Ascomycota; Pezizomycotina; Eurotiomycetes;
+            Eurotiales; Trichocomaceae; mitosporic Trichocomaceae; Penicillium.
+REFERENCE   1
+  AUTHORS   Nikolaev,I.V., Epishin,S.M., Zakharova,E.S., Kotenko,S.V. and
+            Vinetskii,Iu.P.
+  TITLE     Molecular cloning of the gene for secreted beta-galactosidase of
+            the filamentous fungus Penicillium canescens
+  JOURNAL   Mol. Biol. (Mosk.) 26 (4), 869-875 (1992)
+   PUBMED   1435779
+REFERENCE   2  (bases 1 to 1084)
+  AUTHORS   Nikolaev,I.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-1993) I.V. Nikolaev, Inst. for Genetics &
+            Selection of Industrial Microorganisms, 1-st Dorozhny proezd 1,
+            113545 Moscow, RUSSIA
+COMMENT     [WARNING] On Dec 3, 2004 this sequence was replaced by X70408.2.
+FEATURES             Location/Qualifiers
+     source          1..1084
+                     /organism="Penicillium canescens"
+                     /mol_type="genomic DNA"
+                     /strain="F-178 (VKPM, NIIGenetika)"
+                     /isolate="A2"
+                     /db_xref="taxon:5083"
+                     /cell_type="mycelial"
+                     /clone_lib="genomic library in lambda EMBL4"
+     gene            41..1084
+                     /gene="bgaS"
+     regulatory      41..44
+                     /regulatory_class="CAAT_signal"
+                     /gene="bgaS"
+     regulatory      67..70
+                     /regulatory_class="CAAT_signal"
+                     /gene="bgaS"
+     repeat_region   280..302
+                     /gene="bgaS"
+                     /standard_name="palindrome"
+                     /rpt_type=INVERTED
+     regulatory      305..312
+                     /regulatory_class="TATA_box"
+                     /gene="bgaS"
+     mRNA            join(345..567,632..708,760..1062)
+                     /gene="bgaS"
+     exon            345..567
+                     /gene="bgaS"
+                     /number=1
+     CDS             join(433..567,632..708,760..1062)
+                     /gene="bgaS"
+                     /EC_number="3.2.1.23"
+                     /codon_start=1
+                     /product="beta-galactosidase"
+                     /protein_id="CAA49852.1"
+                     /db_xref="GOA:Q12660"
+                     /db_xref="UniProtKB/TrEMBL:Q12660"
+                     /translation="MKLLSSWVVAALAAQAAGAAISHKLDGFTIREHADPAKRALLQK
+                     YVTWDEHSIFVNGERLMIFSGEVHPYRLPVASLYIDIFEKVKALGFNCVSFYVDWALL
+                     EGNPGHYSAEGIFDLQPFFDAAKEAGIYLLARPGPYINAEVSGGGFPGWLQRVDGILR
+                     TSDEAYLKATD"
+     sig_peptide     433..489
+                     /gene="bgaS"
+     misc_feature    490..549
+                     /gene="bgaS"
+                     /standard_name="propeptide"
+     mat_peptide     join(550..567,632..708,760..1062)
+                     /gene="bgaS"
+                     /product="beta-galactosidase"
+     intron          568..631
+                     /gene="bgaS"
+                     /number=1
+     exon            632..708
+                     /gene="bgaS"
+                     /number=2
+     intron          709..759
+                     /gene="bgaS"
+                     /number=2
+     exon            760..1062
+                     /gene="bgaS"
+                     /number=3
+     intron          1063..>1084
+                     /gene="bgaS"
+                     /number=3
+ORIGIN      
+        1 gggatcatcg gtccttctcc tacgagtaga atggcctctc caatgctgcg acgttgtcgt
+       61 ctgctgcaat gtccatacac acctggtcaa cccccgcgcc tcgttcccct gtcgatgatt
+      121 aaatgacgag attgacgaaa gagggtcgaa gtgcagatcg cgctctagtc ccaggtccac
+      181 ggccttcgag gtccaacgcc cgagagaaac gtgcagaata atgatgcgag tgcggcagtg
+      241 acggaataca cggcattgtg ccttcgtgaa ggtgattcgc ttgtcgatcg tcgctcgaga
+      301 agtgtatatg aaggcccgcc gatcccttgc agtgtgtgaa atgcaagctg ctgaagctga
+      361 agctcttttc ataattagct tctcctaagg cgaaggtcgc gtctattctt ttcatcgtcg
+      421 actttgctca ccatgaagct tttgtcttct tgggtcgtgg ctgctttggc agcacaggct
+      481 gcaggtgctg ctataagcca taagttggat ggcttcacca tccgggagca tgcggatccc
+      541 gcgaaacggg ccctgctgca gaaatatgta tgttggatat ttctcttgcg atattcaatc
+      601 gggctgtagt actgatgacg ggccactgta ggtaacctgg gacgagcact cgatattcgt
+      661 caatggcgag cggttgatga ttttcagtgg tgaagtccac ccgtatcggt atgttatatg
+      721 gtcgagactg gacggatttt tctaatataa atcgctcagt ctgcctgtcg cctccttgta
+      781 cattgatatt ttcgagaagg tcaaggcact cggattcaat tgcgtgtcct tctatgtcga
+      841 ttgggctttg ttggagggca acccgggcca ctactctgcc gagggcatct ttgacctcca
+      901 gcccttcttc gatgcggcca aggaagctgg tatttacttg ctggctcgtc ccggtcctta
+      961 tattaacgct gaggtctctg gtggtggttt ccccggctgg ctgcagcgag tcgatggcat
+     1021 tctgcggact agcgatgagg catacttgaa ggcgaccgat aagtatggac atcgtccttc
+     1081 gatc
+//
+
