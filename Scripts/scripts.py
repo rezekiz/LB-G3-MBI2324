@@ -159,6 +159,8 @@ def pesquisa_ncbi(email, term, db = 'pubmed', retmax = 10, rettype = 'abstract',
 # Secção de análise de features #
 #################################
 
+# Desenvolvido por Mariana Oliveira
+
 def parsing(nome_ficheiro):
 
     from Bio import SeqIO
